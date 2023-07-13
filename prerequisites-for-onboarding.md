@@ -6,53 +6,59 @@
 
 - Users who want to onboard their Internet Device to SEED.
 
-## Prerequisites
+# Prerequisites
 
-Before you proceed to onboard your device to SEED, note the following prerequisites and recommendations:
+This article explains how to onboard your internet device to SEED.
 
-!> You **can't onboard** the following to SEED:<br>- Virtual machines<br>- Mobile phones and Tablets (Android and iOS)<br>- GoMAX devices.<br>- SE-GSIB or Non-SE GSIB device.
-<br>- More than one Internet Device.
+## Supported browsers and OS
 
-- Ensure you have an active [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
-- Ensure you have a valid SEED onboarding email. For more information on how to request or sign up for SEED provisioning, see [SEED provisioning](#request-seed-provisioning).
-- Ensure you have Administrator permission on the device.
-- Ensure the device is running on one of the following operating systems:
-    - Windows 10 and 11 Pro or Enterprise versions.
-    - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions. 
-- Supported browsers: Google Chrome, Microsoft Edge, Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).       
-- [Remove existing software on your device](#remove-existing-software-on-your-device) such as any existing MDM software, Tanium client or any other unified endpoint management and security platform.
-- If your device is running on macOS, ensure [System Integrity protection(SIP) is enabled](#ensure-system-integrity-protectionsip-is-enabled-for-macos).
-- [Encrypt hard disk drive to protect the data at rest](#encrypt-your-hard-disk-drive-to-protect-your-data-at-rest). 
-- If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/). 
+Supported browsers:
+
+ - Google Chrome
+ - Microsoft Edge
+ - Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
+
+Supported OS:
+
+- macOS
+- Windows
 
 ## Request SEED provisioning
 
-You can request for SEED provisioning in one of the following ways as applicable:
+You can request SEED provisioning in one of the following ways:
 
-  - All users can contact their reporting officer or project manager to request for TechPass and SEED provisioning via [TechBiz portal](http://portal.techbiz.suite.gov.sg/).
-  - If you can access [TechPass portal](https://portal.techpass.gov.sg/), you can sign up for TechPass and SEED together. For more information, see [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
-  - If you already have an active TechPass account, and can access the TechPass portal, [request for SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning) from your TechPass account profile.
-  - If you are a SE-GSIB user, and have an active TechPass account, submit a [service request](https://go.gov.sg/seed-techpass-support) for SEED provisioning.
-  
-  ?> When SEED is successfully provisioned:<br>- We'll send the SEED onboarding email within the next three business days.<br>- This email is valid only for 30 days.<br>- Ensure that you successfully activate your TechPass account before proceeding to onboard your Internet Device to SEED.<br>- If your SEED onboarding email has expired, follow one of the below options:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-If you had requested your reporting officer or project manager for SEED provisioning, contact them again to get another SEED onboarding invitation email.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-If you had signed up for SEED via the TechPass portal, you may log in to the TechPass portal to [request for SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
+- All users can contact their reporting officer or project manager to request TechPass and SEED provisioning via the [TechBiz portal](http://portal.techbiz.suite.gov.sg/).
+- If you can access the [TechPass portal](https://portal.techpass.gov.sg/), you can sign up for TechPass and SEED together. For more information, see the [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
+- If you already have an active TechPass account and can access the TechPass portal, [request SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning) from your TechPass account profile.
+- If you are a SE-GSIB user and have an active TechPass account, submit a [service request](https://go.gov.sg/seed-techpass-support) for SEED provisioning.
 
 
+## SEED provisioning successful
 
-## Remove existing software on your device
+When SEED is successfully provisioned:
 
-Before onboarding to SEED, you need to remove the following software solutions from your device if applicable:
+- We will send the SEED onboarding email within the next three business days.
+- This email is valid only for 30 days.
+- Ensure that you successfully activate your TechPass account before proceeding to onboard your internet device to SEED.
+- If your SEED onboarding email has expired, follow one of the below options:
+  - If you had requested your reporting officer or project manager for SEED provisioning, contact them again to get another SEED onboarding invitation email.
+  - If you had signed up for SEED via the TechPass portal, you may log in to the TechPass portal to [request another SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
+
+
+## Remove existing software
+
+Before onboarding to SEED, you need to remove the following software solutions from your device, if applicable:
 
 - Existing MDM software.
 - Tanium client or any other unified endpoint management and security platform.
 - Cloudflare WARP or any other software used for privacy and secured connections.
 - Defender or any other antivirus solution.
 
-<!-- tabs:start -->
 
-#### **macOS**
+### **macOS**
 
 <details>
-  <summary style="font-size:18px">a. Verify if your device is already managed by any MDM software</summary>
+  <summary>a. Verify if your device is already managed by any MDM software</summary>
 
   Complete the following steps to find if your device is already managed by an MDM solution. 
   
@@ -83,7 +89,7 @@ Before onboarding to SEED, you need to remove the following software solutions f
 
 </details>
 <details>
-  <summary style="font-size:18px">b. Unenrol from Microsoft Intune</summary>
+  <summary>b. Unenrol from Microsoft Intune</summary>
 
 Complete the following steps to remove your device from Intune. 
 
@@ -100,7 +106,7 @@ Complete the following steps to remove your device from Intune.
 </details>
 
 <details>
-  <summary style="font-size:18px">c. Remove Tanium Client</summary>
+  <summary>c. Remove Tanium Client</summary>
 
 Complete the following steps to find if Tanium Client is available on your device and remove it.
 
@@ -137,12 +143,11 @@ Complete the following steps to find if Tanium Client is available on your devic
      sudo rm /var/db/receipts/com.tanium.tanium.client.plist
 
     ```
-
-4. Enter your macOS password when prompted. Once the commands are successfully executed, Tanium Client is removed from your device.
+  5. Enter your macOS password when prompted. Once the commands are successfully executed, Tanium Client is removed from your device.
 
 </details>
 <details>
-  <summary style="font-size:18px">d. Remove Cloudflare WARP Client</summary>
+  <summary>d. Remove Cloudflare WARP Client</summary>
 
 Complete the following steps to find if Cloudflare WARP client is available on your device and remove it.  
 
@@ -157,7 +162,7 @@ Complete the following steps to find if Cloudflare WARP client is available on y
   5. When prompted, enter your macOS password.
 
 </details>
-<details><summary style="font-size:18px">e. Remove Defender or the current antivirus solution</summary>
+<details><summary>e. Remove Defender or the current antivirus solution</summary>
 
 If your device is already enrolled with Defender or any other antivirus solution, it has to be completely unenrolled from it before you proceed to onboard the device to SEED.
 
@@ -173,7 +178,7 @@ Complete the following steps to find if Defender is your current antivirus solut
 
    b. Take note of the value displayed for **org_id**.
   
-  3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation that is linked to your Defender or antivirus solution on your device.
+3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation that is linked to your Defender or antivirus solution on your device.
 
   | org_id  | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:|
@@ -208,7 +213,7 @@ Complete the following steps to find if Defender is your current antivirus solut
     sudo ./local_mac_offboarding.sh
     ```
 
-When you see the following success message on your **Terminal**, you are automatically directed to a form to submit the Intune Device ID.
+When you see the following success message on your **Terminal**, you will automatically be directed to a form to submit the Intune Device ID.
 
 ![macos-success-message](images/macos-success-message.png)
 
@@ -402,12 +407,6 @@ When you see the following success message on your **Powershell**, you are autom
 
 
 
-
-
-
-### Next steps
-
-- [Proceed to onboard your device to SEED](onboard-device/onboard-device-to-seed)
 
 
 <!--
