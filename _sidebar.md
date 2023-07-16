@@ -1,6 +1,6 @@
 - **Overview**
   - [Overview](overview)
-- **What's New***
+- **What's new**
   - [Release notes](release-notes)
   - [Announcements](announcements)
 - **Onboard to SEED**  
