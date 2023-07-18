@@ -5,25 +5,24 @@
   - [Announcements](announcements)
 - **Onboard to SEED**  
   - [Prerequisites](prerequisites-for-onboarding)
-  - [Supported OS]
+- **Identify onboarding persona**
+  - [Onboard as a public officer](identify-seed-onboarding-persona)
+  - [Onboard as a vendor](onboard-device/onboard-device-to-seed)
+- **Post onboarding steps**    
+  - [macOS](post-onboarding-instructions/post-onboarding-steps-and-verification)
+  - [Windows](device-clean-up-policy)
+  - [Monitor using SEED Dashboard]
+- **Offboard from SEEDe**
   - [macOS]
   - [Windows]
-  - [Step 1: Identify persona](identify-seed-onboarding-persona)
-  - [Step 2: Onboard device](onboard-device/onboard-device-to-seed)
-- **After onboarding**    
-  - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
-  - [Device clean-up policy](device-clean-up-policy)
-- **Offboard device**
-  - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
-- **Troubleshoot**
-  - [Known issues and FAQs](faqs/seed-faqs)
-- **Additional resources**  
-  - [SEED additional resources](additional-resources/additional-resources)
-  - [Split tunnel allowlist](additional-resources/split-tunnel-allowlist)
-  - [SEED Dashboard](seed-dashboard/seed-overview.md)
 - **Support**
-  -
+  - [Best practices]
+  - [ FAQs](faqs/seed-faqs)
+  - [Known issues]
   - [Create support request](raise-an-incident-support-request)
-  - [SEED service status](seed-status)
- 
-x
+  - [View SEED service status](seed-status)
+- **Additional resources**  
+  - [Glossary](glossary)
+  - [SEED additional resources](additional-resources/additional-resources)
+  - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)
+  
