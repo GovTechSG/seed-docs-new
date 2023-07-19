@@ -12,7 +12,7 @@
   - [macOS](post-onboarding-instructions/post-onboarding-steps-and-verification)
   - [Windows](device-clean-up-policy)
   - [Monitor using SEED Dashboard]
-- **Offboard from SEEDe**
+- **Offboard from SEED**
   - [macOS]
   - [Windows]
 - **Support**
