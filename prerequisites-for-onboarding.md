@@ -1,10 +1,3 @@
-# Step 0: Prerequisites for onboarding to SEED
-
-<!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
-
-## Audience
-
-- Users who want to onboard their Internet Device to SEED.
 
 # Prerequisites
 
@@ -27,7 +20,7 @@ Supported OS:
 
 You can request SEED provisioning in one of the following ways:
 
-- All users can contact their reporting officer or project manager to request TechPass and SEED provisioning via the [TechBiz portal](http://portal.techbiz.suite.gov.sg/).
+- You can contact their reporting officer or project manager to request TechPass and SEED provisioning via the [TechBiz portal](http://portal.techbiz.suite.gov.sg/).
 - If you can access the [TechPass portal](https://portal.techpass.gov.sg/), you can sign up for TechPass and SEED together. For more information, see the [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
 - If you already have an active TechPass account and can access the TechPass portal, [request SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning) from your TechPass account profile.
 - If you are a SE-GSIB user and have an active TechPass account, submit a [service request](https://go.gov.sg/seed-techpass-support) for SEED provisioning.
@@ -41,7 +34,7 @@ When SEED is successfully provisioned:
 - This email is valid only for 30 days.
 - Ensure that you successfully activate your TechPass account before proceeding to onboard your internet device to SEED.
 - If your SEED onboarding email has expired, follow one of the below options:
-  - If you had requested your reporting officer or project manager for SEED provisioning, contact them again to get another SEED onboarding invitation email.
+  - If you had requested your reporting officer or project manager for SEED provisioning, contact them agaißn to get another SEED onboarding invitation email.
   - If you had signed up for SEED via the TechPass portal, you may log in to the TechPass portal to [request another SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
 
 
@@ -55,18 +48,18 @@ Before onboarding to SEED, you need to remove the following software solutions f
 - Defender or any other antivirus solution.
 
 
-### **macOS**
+### macOS
 
 <details>
   <summary>a. Verify if your device is already managed by any MDM software</summary>
 
   Complete the following steps to find if your device is already managed by an MDM solution. 
   
-  1. Choose the appropriate step based on your macOS version.
+  1. Choose the appropriate step based on your macOS version:
     
       a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), go to the **Apple** menu > **System Preferences** > **Profiles**.
 
-      b. If your macOS version is macOS 13 (Ventura), go to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right.(You may need to scroll down.)
+      b. If your macOS version is macOS 13 (Ventura), go to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right. (You may need to scroll down.)
 
   2. Click **Management Profile**.
      
