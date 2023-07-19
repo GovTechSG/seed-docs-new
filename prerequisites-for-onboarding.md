@@ -34,8 +34,8 @@ When SEED is successfully provisioned:
 - This email is valid only for 30 days.
 - Ensure that you successfully activate your TechPass account before proceeding to onboard your internet device to SEED.
 - If your SEED onboarding email has expired, follow one of the below options:
-  - If you had requested your reporting officer or project manager for SEED provisioning, contact them agaißn to get another SEED onboarding invitation email.
-  - If you had signed up for SEED via the TechPass portal, you may log in to the TechPass portal to [request another SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
+  - If you had requested your reporting officer or project manager for SEED provisioning, contact them again to get another SEED onboarding invitation email.
+  - If you had signed up for SEED via the TechPass portal, log in to the TechPass portal to [request another SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
 
 
 ## Remove existing software
