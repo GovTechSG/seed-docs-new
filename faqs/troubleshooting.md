@@ -1,14 +1,4 @@
-# Known issues
-
-Following is the list of known issues that may impact SEED users:
-
-**Issues**
-
-- [Issue 1: Intermittently experience the error *Account does not have access*](#issue-1)
-- [Issue 2: Users may experience connectivity issues](#issue-2)
-- [Issue 3: User experience issues while accessing or loading Slack](#issue-3)
-- [Issue 4: Unable to access  AWS documentation](#issue-4)
-
+# Troubleshooting
 
 ## Issue 1
 
@@ -96,34 +86,6 @@ Cloudflare has reported connectivity issues for its users whose macOS WARP clien
 
 
 <!-- tabs:end -->
-
-## Issue 3
-
-**Users experience issues while accessing or loading Slack**
-
-Users experience intermittent connectivity issues while trying to accessing Slack application over the internet.
-
-**Workaround**
-
-See [Issue 2](#issue-2) for the possible workaround. If you still experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
-
-## Issue 4
-
-**Unable to access  AWS documentation**
-
-Users are unable to access AWS documentation if Cloudflare Warp is turned on. Cloudflare has stated that it has resolved this issue. 
-
-**Workaround**
-
-If you continue to experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
-
-
-
-
-
-
-
-
 
 
 
