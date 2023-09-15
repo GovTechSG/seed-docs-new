@@ -65,7 +65,7 @@ If you encounter an error stating that your user account is not found in the res
 
 ![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
 
-5. After successfully signing in, click **Open Cloudflare WARP.app** to establish your WARP connection.
+5. After successfully signing in, click **Open Cloudflare WARP app** to establish your WARP connection.
 
 Once connected, you should see WARP Zero Trust in the connected state.
   
