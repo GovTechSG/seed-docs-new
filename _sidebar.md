@@ -19,8 +19,8 @@
   - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
   - [FAQ](/seed-dashboard/seed-dashboard-faq.md)
 - **Offboard from SEED**
-  - [macOS]
-  - [Windows]
+  - [macOS](mac-os.md)
+  - [Windows](windows.md)
 - **Troubleshooting**
   - [General FAQs](/faqs/general-faq.md)
   - [Onboarding FAQs](/faqs/onboarding-faq.md)
