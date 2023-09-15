@@ -15,9 +15,9 @@
   - [Windows](/post-onboarding-instructions/windows.md)
   - [GCC 1.0 users](/post-onboarding-instructions/gcc-1-users.md)
 - **Monitor using SEED Dashboard**
-  - [SEED Dashboard overview](/seed-overview.md)
-  - [SEED Dashboard tour](/seed-dashboard-tour.md)
-  - [FAQ](/seed-dashboard-faq.md)
+  - [SEED Dashboard overview](/seed-dashboard/seed-overview.md)
+  - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
+  - [FAQ](/seed-dashboard/seed-dashboard-faq.md)
 - **Offboard from SEED**
   - [macOS]
   - [Windows]
