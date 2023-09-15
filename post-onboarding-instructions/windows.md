@@ -1,16 +1,16 @@
-# SEED post onboarding instructions for Windows
+# Post onboarding instructions for Windows
 
-After you onboard your Windows Internet Device to SEED, you need to turn on Cloudflare WARP.
+After onboarding your Windows Internet Device to SEED, you need to enable Cloudflare WARP.
 
 ## Turn on Cloudflare WARP for Windows
 
-!> Make sure your device is **not connected** to any other VPN, as it might clash with Cloudflare WARP.
+!>  Ensure that your device is not connected to any other VPN, as it might conflict with Cloudflare WARP.
 
-### To turn on Cloudflare WARP for Windows
+**Activation steps**:
 
 1. Open the Cloudflare WARP client from the Windows Taskbar. You will see the information page, followed by the privacy policy.
 
-2. Click **Next** and then **Accept** to agree to the Cloudflare’s privacy policy.
+2. Click **Next**, **Accept** to agree to the Cloudflare’s privacy policy.
 
   ![cloudflare-for-teams](../images/cloudflare-warp-windows/cloudflare-for-teams.png ':size=400')
 
@@ -18,22 +18,26 @@ After you onboard your Windows Internet Device to SEED, you need to turn on Clou
 
   ![azure-ad-techpass-prod](../images/cloudflare-warp-windows/azure-ad-techpass-prod.png ':size=400')
 
-  !> **Note**<br> If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
+If you encounter an error stating that your user account is not found in the respective tenant, follow these instructions:
 
-4. Sign in using your TechPass credentials.
+- Open a new browser tab
+- Visit https://myaccount.microsoft.com
+- Sign out of your current account
+- Retry the action
+
+4. Sign in using your TechPass login details.
 
   ![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
 
-5. After successfully signing in, click **Open Cloudflare WARP.app**.
+5. After successfully signing in, click **Open Cloudflare WARP app** to establish your WARP connection.
 
   When the device is connected to WARP, you should see the WARP Zero Trust in the connected state.
   
   ![after-signed-in](../images/cloudflare-warp-windows/after-signed-in.png ':size=400')
 
-6. Open Cloudflare WARP **Settings**, and make sure **Gateway with WARP** is selected.
+6. Open Cloudflare WARP **Settings**, and ensure **Gateway with WARP** is selected.
 
-  WARP is now running and protecting your Internet connection.
-  
+WARP is now active, safeguarding your Internet connection.
 
 
 
