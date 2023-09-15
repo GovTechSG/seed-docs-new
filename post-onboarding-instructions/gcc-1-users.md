@@ -1,4 +1,4 @@
-# Post onboarding verification steps for GCC 1.0 users
+# Post onboarding instructions for GCC 1.0 users
 
 This guide is for GCC 1.0 users who have successfully onboarded their Internet Devices to SEED. Once your device is onboarded to SEED, it becomes a Government Managed Device (GMD).
 

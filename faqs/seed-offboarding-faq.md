@@ -7,7 +7,7 @@
 </details>
 
 <details><summary>
-I cannot log in to my device. What should I do? </summary>
+What should I do if I am unable to log in to my device? </summary>
 
 1. Create an [incident support](https://go.gov.sg/seed-techpass-support) request.
 2. In **Details**, enter the text  *I am unable to offboard my device from SEED components but I would like to submit my Intune Device ID to offboard my device from SEED*. 
@@ -40,7 +40,7 @@ This error indicates that your offboarding package is outdated.
 
 </details>
 
-<details><summary>when I run the offboarding package on my device, I get the  error <b>Microsoft Defender for Endpoint Service failed to stop running</b>!</summary>
+<details><summary>When I run the offboarding package on my device, I get the  error <b>Microsoft Defender for Endpoint Service failed to stop running</b>!</summary>
 
 This error would look like the following:
 

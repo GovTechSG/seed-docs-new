@@ -85,6 +85,22 @@ When the configurations of the impacted services return to a healthy state, you 
 
 </details>
 
+<details><summary>I am back to work after taking leave for 3 or more months, do I need to re-onboard my device to SEED?</summary>
+
+
+Refer to [MDM certificate and device clean-up policy](device-clean-up-policy).
+
+</details>
+     
+
+
+<details><summary>Will I receive any notification regarding MDM certificate expiration?</summary>
+
+
+No, you will not receive any notification for this.
+
+</details>
+     
 
 [techpass-documentation]: https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/
 [terms-and-policies]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/additional-resources/terms-and-policies
