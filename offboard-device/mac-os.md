@@ -1,4 +1,4 @@
-# Offboard macOS device using a script
+# Offboard macOS from SEED
 
  This document guides you to offboard your macOS device onboarded to SEED.
 
