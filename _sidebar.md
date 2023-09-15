@@ -30,7 +30,7 @@
   - [Create support request](raise-an-incident-support-request)
   - [View SEED service status](seed-status)
 - **Additional resources**  
-  - [Glossary](glossary)
+  - [Glossary](addition-resources/glossary)
   - [SEED additional resources](additional-resources/additional-resources)
   - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)
   
