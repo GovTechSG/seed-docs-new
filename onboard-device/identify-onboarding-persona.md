@@ -21,7 +21,7 @@ For example: john_doe@moe.gov.sg, john_doe_from.cognizant@tech.gov.sg.
 
 Follow these instructions:
 
-- [Onboard macOS device](onboard-device/mac-os)
+- [Onboard macOS device](onboard-device/public-officer/macos)
 - [Onboard Windows device](onboard-device/windows)
 
 
