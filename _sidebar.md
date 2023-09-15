@@ -29,8 +29,9 @@
 - **Support**
   - [Create support request](raise-an-incident-support-request)
   - [View SEED service status](seed-status)
+  - [Terms and policies](additional-resources/terms-and-policies.md)
 - **Additional resources**  
+  - [Best practices](/additional-resources/best-practices.md)
   - [Glossary](additional-resources/glossary)
-  - [SEED additional resources](additional-resources/additional-resources)
   - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)
   
