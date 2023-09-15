@@ -1,14 +1,6 @@
 # Onboarding FAQ
 
 <details>
-  <summary>Can I onboard my GSIB device to SEED?</summary>
-
-  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an Internet Device, which is not a GSIB device.
-
-  </details>
-  
-
-<details>
   <summary>What should I do if profile installation fails while installing the management profile?</summary>
 
 <!--<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>-->
@@ -22,6 +14,16 @@
 
 
 </details>
+
+</details>
+<details><summary>I have already enrolled my device with Microsoft Intune under my organisation or with other MDM solution. Will this impact when I onboard my device to SEED?</summary>
+
+Yes, this impacts your SEED onboarding. Before onboarding to SEED, remove your existing Microsoft Intune enrolment under your organisation's tenancy or other MDM solution on your device.
+
+</details>
+<details><summary>What data is collected by Microsoft Intune?</summary>
+
+To know about the data collected by Microsoft Intune, refer to [Data collection in Intune](https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect).
 
 
 <details>
@@ -103,30 +105,10 @@ This is because a new password policy has been enforced and you are required to 
 3. You will be prompted to reset your password.
 </details>
 
-
-
-<details><summary>How do I reset the password for my macOS device?</summary>
-
-*To reset password while enabling FileVault or FDA* :
-1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
-2. Enter your password and press **return**. You will be prompted to reset password.
-3. Reset your password and make sure it meets the following requirements:
-
-  - should contain at least 12 characters
-  - should not be the same as the previous three passwords
-  - same character cannot be used consecutively.
-  - cannot have three sequential characters
-  - should contain at least one number and one alphabetic character
-  
-
-</details>
-
-
-
 <details>
-<summary>After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
+<summary>I did not receive the successfully onboarded email after onboarding to SEED. What should I do?</summary>
 
-Possible reasons could be:
+Possible reasons:
 
 - Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 - Tanium and Cloudflare did not get installed while onboarding to SEED.
@@ -140,14 +122,6 @@ Before raising a support request, confirm the following:
 </details>
 
 
-<details><summary>While enrolling my device to SEED, I get an error <b>Couldn’t add your device. Wait a few minutes, then try again or contact your company support</b>. What should I do?
-</summary>
-
-As suggested wait for few minutes, retry enrolling your device to Microsoft Intune and click **Approve** in the management profile.
-
-</details>
-
-
 <details>
 <summary>While approving the management profiles, I get a message <b>Profiles cannot be approved while using remote or automated input method</b>. What should I do?</summary>
 
@@ -156,27 +130,9 @@ As suggested wait for few minutes, retry enrolling your device to Microsoft Intu
 </details>
 
 
-<details><summary>What should I do when I get an error <b>You can’t use this version of the application Company Portal with this version of OS X.</b> </summary>
-
- Upgrade to the [latest macOS version][upgrade-macos].
-
- </details>
- 
-
-
-<details>
-<summary>How to confirm if I have successfully onboarded my Internet Device to SEED? </summary>
-
-When you complete onboarding your device to SEED, within the next two hours, you should receive the successfully onboarded email in your inbox (organisational email address).
-
-If you don't receive this email after two hours, please submit an [incident request](https://go.gov.sg/seed-techpass-support).
-
-</details>
-     
-
 <details>
 
-  <summary>After resetting my macOS password, I am unable to log in using the new password, why?</summary>
+  <summary>How do I reset my password on maOS?</summary>
 
 This may occur if your new password does not meet the following password requirements:
 

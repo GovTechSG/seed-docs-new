@@ -1,4 +1,6 @@
-# Onboard macOS device to SEED as vendors
+# Onboard to SEED as a vendor
+
+## macOS
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 
@@ -10,7 +12,7 @@
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/P9R5RiMpaVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-## Step 1: Set up Microsoft Intune
+### Step 1: Set up Microsoft Intune
 
 <details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
@@ -28,7 +30,7 @@
 
 </details>
 
-## Step 2: Verify installation
+### Step 2: Verify installation
 
 <details>
   <summary style="font-size:18px">Verify the  installation of the required profiles.</summary><br>
@@ -57,48 +59,59 @@
 </details>
 
 
+## Windows
+
+?> Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
+
+<div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/Cvb7lppxFqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+</div>
+
+### Step 1: Set up Microsoft Intune
+
+<details>
+  <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
+
+1. Click **Start** icon on the taskbar.
+
+2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your TechPass account.
+
+  ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
+
+3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
+
+  ![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
+
+  Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
+
+  ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
+
+4. Select the **Info** option and verify that a similar result to the following is displayed. You will see **TechPass** instead of **SG Govt M365**.
+
+  ![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
+
+</details>
 
 
 
-<!--
+### Step 2: Verify installation
 
-<ifigure>
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</ifigure>
+<details>
+  <summary style="font-size:18px">Verify the installation.</summary><br>
 
- 
+1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. 
+2. Ensure that Cloudflare WARP and Tanium are listed.
 
+  ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
 
+  ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
+  
+  ?> You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
 
-
-
-
-
-?> Sign in to the Company Portal using your TechPass and authenticate it by entering the number displayed on your computer.
-
-<img src="./images/list-of-profiles.png" width=50% height=50%>
-  >**Tip**:
-   >- If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
-   >- If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
-   
-
-  !> If you are a public officer, complete all the substeps in [Step 2: Register the Microsoft Intune Device ID for your macOS device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/mac-os?id=step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device) to get the profiles installed. 
-
-  If you are a vendor or a contractor, the required configuration profiles will be installed as shown below. If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-onboarding-issues).
-
-  <kbd>![list-of-profiles](./images/onboarding-for-macos/list-of-profiles.png)</kbd>
-
-  9. Open the **Company Portal** application again.
-
-  10. You will see the success message. Click **Done**.
-
-  <kbd>![all-set](./images/onboarding-for-macos/all-set-2.png)</kbd> 
-
-  intune device id notes: This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. In other words, this is applicable for users whose TechPass ID's domain **is not** ```techpass.gov.sg```.
+</details>
 
 
 
-- Skip the following steps if your TechPass ID belongs to the TechPass AAD and has its domain as *techpass.gov.sg*. For example, *peter_wilson<span>@</span>techpass.gov.sg*.
 
--->
+
 

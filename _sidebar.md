@@ -6,19 +6,27 @@
 - **Onboard to SEED**  
   - [Prerequisites](prerequisites-for-onboarding)
 - **Identify onboarding persona**
-  - [Onboard as a public officer](identify-seed-onboarding-persona)
-  - [Onboard as a vendor](onboard-device/onboard-device-to-seed)
+  - [Identify onboarding persona](/onboard-device/identify-onboarding-persona)
+  - [Onboard as a public officer](onboard-device/public-officer)
+  - [Onboard as a vendor](onboard-device/vendor)
 - **Post onboarding steps**    
-  - [macOS](post-onboarding-instructions/post-onboarding-steps-and-verification)
-  - [Windows](device-clean-up-policy)
-  - [Monitor using SEED Dashboard]
+  - [macOS 13](/post-onboarding-instructions/mac-os-13.md)
+  - [macOS 11 and 12](/post-onboarding-instructions/mac-os.md)
+  - [Windows](/post-onboarding-instructions/windows.md)
+  - [GCC 1.0 users](/post-onboarding-instructions/gcc-1.0-users.md)
+- **Monitor using SEED Dashboard**
+  - [SEED Dashboard overview](/seed-overview.md)
+  - [SEED Dashboard tour](/seed-dashboard-tour.md)
+  - [FAQ](/seed-dashboard-faq.md)
 - **Offboard from SEED**
   - [macOS]
   - [Windows]
+- **Troubleshooting**
+  - [General FAQs](/faqs/general-faq.md)
+  - [Onboarding FAQs](/faqs/onboarding-faq.md)
+  - [Offboarding FAQs](/faqs/seed-offboarding-faq.md)
+  - [Troubleshooting](/faqs/troubleshooting.md)
 - **Support**
-  - [Best practices]
-  - [ FAQs](faqs/seed-faqs)
-  - [Known issues]
   - [Create support request](raise-an-incident-support-request)
   - [View SEED service status](seed-status)
 - **Additional resources**  
