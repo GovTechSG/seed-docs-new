@@ -1,4 +1,4 @@
-# Offboard Windows device using a script
+# Offboard Windows device from SEED
 
 This document guides you to offboard your Windows device onboarded to SEED.
 
