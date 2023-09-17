@@ -2,9 +2,9 @@
 
 ## What is SEED?
 
-**Security Suite for Engineering Endpoint Devices(SEED)** is the Singapore Government's implementation of Identity and Access Management (IAM) and Zero Trust framework.  It aims to protect the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Government Tech Stack (SGTS), against unauthorised access.
+**Security Suite for Engineering Endpoint Devices (SEED)** is the Singapore Government's implementation of Identity and Access Management (IAM) and Zero Trust framework.  It aims to protect the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Government Tech Stack (SGTS), against unauthorised access.
 
-Zero Trust replaces traditional Virtual Private Network (VPN) connections and network-based security policies with a standardised central identity provider. It enforces access policies that allow only authorised users to use devices compliant with device postures.
+Zero Trust replaces traditional Virtual Private Network (VPN) connections and network-based security policies with a standardised central identity provider. TThis enforces access policies, ensuring that only authorised users with devices compliant with device postures gain access.
 
 ## Why do we need SEED?
 
@@ -19,7 +19,7 @@ Zero Trust replaces traditional Virtual Private Network (VPN) connections and ne
 
 ![how-does-seed-work](images/how-does-seed-work.png)
 
-SEED comprises of three components:
+SEED comprises three key components:
 
 - TechPass
 - Cloudflare
@@ -29,13 +29,13 @@ SEED comprises of three components:
 
 | SEED capabilities                            | Supported |
 | ----------------------------------------------------------- | :-------: |
-| View device information such as model number and OS version. |     ✔️     |
-| View the names of installed applications.                    |     ✔️     |
-| Identify your device by name.                                |     ✔️     |
-| Reset a lost or stolen device to factory settings.           |     ✔️     |
-| View browsing history.                                       |     ❌     |
-| Access emails, contacts, and calendar.                       |     ❌     |
-| Access documents.                                            |     ❌     |
+| View device information such as model number and OS version |     ✔️     |
+| View the names of installed applications                 |     ✔️     |
+| Identify your device by name                       |     ✔️     |
+| Reset a lost or stolen device to factory settings          |     ✔️     |
+| View browsing history                              |     ❌     |
+| Access emails, contacts, and calendar                     |     ❌     |
+| Access documents                                         |     ❌     |
 
 
 
