@@ -1,4 +1,4 @@
-# Onboard device to SEED as a public officer
+# Onboard to SEED as a public officer
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 

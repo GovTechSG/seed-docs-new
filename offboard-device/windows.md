@@ -59,7 +59,7 @@ Write-Output $intune_id
 <details>
 <summary>Method 3: Submit an incident request to get Intune Device ID.</summary>
 
-?> **Note**<br>Use this method only if you can't log in to your GMD or TechPass portal.
+?> **Note**<br>Use this method only if you cannot log in to your GMD or TechPass portal.
 
 - Submit an [incident request](https://go.gov.sg/seed-techpass-support) to get your Intune Device ID.
 
