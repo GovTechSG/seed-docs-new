@@ -14,7 +14,7 @@ Supported browsers:
 Supported OS:
 
 - macOS 11 or higher
-- Windows
+- Windows 10 and 11
 
 ## Request SEED provisioning
 
