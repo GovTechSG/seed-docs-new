@@ -159,7 +159,7 @@ Complete the following steps to find if Cloudflare WARP client is available on y
 </details>
 <details><summary>e. Remove Defender or the current antivirus solution</summary>
 
-If your device is already enrolled with Defender or any other antivirus solution, it has to be completely unenrolled from it before you proceed to onboard the device to SEED.
+If your device is already enroled with Defender or any other antivirus solution, it has to be completely unenroled from it before you proceed to onboard the device to SEED.
 
 Complete the following steps to determine if Defender is your current antivirus solution and remove it from your device.
 
