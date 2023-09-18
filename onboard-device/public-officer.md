@@ -262,7 +262,7 @@ Write-Output $intune_id
 
 10. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
-?> If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/seed-techpass-support).
+?> If you do not receive this email after two hours, submit an [incident request](https://go.gov.sg/seed-techpass-support).
 
 
 </details>

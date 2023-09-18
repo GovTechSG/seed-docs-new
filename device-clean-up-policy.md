@@ -14,7 +14,7 @@ When users onboard their Internet Device to SEED, an MDM certificate is assigned
 >- Your TechPass account must be active.
 >- To know how to re-enable a disabled TechPass account, see [TechPass Account Management FAQ](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/support/account).
 
-An expired MDM certificate is automatically renewed if you log in to your device within 180 days from the expiration date. In this case, you don't need to re-onboard your device to SEED.
+An expired MDM certificate is automatically renewed if you log in to your device within 180 days from the expiration date. In this case, you do not need to re-onboard your device to SEED.
 
 If it is past 180 days of expiry, your device record is hard deleted and you will not be able to access the SGTS resources using it.
 
