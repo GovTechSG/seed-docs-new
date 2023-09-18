@@ -166,7 +166,7 @@ Complete the following steps to determine if Defender is your current antivirus 
 ?> **Note**: If you have another antivirus solution, please contact your administrator to remove it.
 
 
-1. Open **Terminal** and run `mdatp health`.   
+1. Open **Terminal** and run `mdatp health.   
 2. Choose the appropriate step:
   
    a. If you get a `mdatp: command not found` error, it means you do not have Defender installed on your device. You can skip the remaining steps in this section.
@@ -182,7 +182,7 @@ Complete the following steps to determine if Defender is your current antivirus 
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 
-!> **Important**<br>- If your **Defender organization** is **Hive**, skip the remaining steps in this document. Obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) for instructions on how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organization** is either **WOG** or **TechPass**, it suggests that this device may have already been onboarded to SEED under a different TechPass profile. Therefore, you need to offboard this device before proceeding further.<br><br>- If your **Defender organization** is **none of the above**, please contact the IT support of the organization that provided you with the device.
+!> **Important**<br>- If your **Defender organization** is **Hive**, skip the remaining steps in this document. Obtain the offboarding package from Hive support and unenrol your device from Defender. Refer to the [offboarding FAQs](faqs/seed-offboarding-faqs.md) for instructions on how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organization** is either **WOG** or **TechPass**, it suggests that this device may have already been onboarded to SEED under a different TechPass profile. Therefore, you need to offboard this device before proceeding further.<br><br>- If your **Defender organization** is **none of the above**, please contact the IT support of the organization that provided you with the device.
 
 
 4. Log in with your TechPass to download the offboarding package.
