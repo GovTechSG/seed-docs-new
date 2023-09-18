@@ -1,7 +1,7 @@
 
 # Prerequisites
 
-Before you begin the process of onboarding your Internet Device to SEED, you need meett the necessary prerequisites. These prerequisites are vital for a successful onboarding experience. 
+Before you begin the process of onboarding your Internet Device to SEED, you need meet the necessary prerequisites. These prerequisites are vital for a successful onboarding experience. 
 
 ## Supported browsers and OS
 
@@ -21,7 +21,7 @@ Supported OS:
 You can request SEED provisioning through one of the following methods:
 
 - Contact your reporting officer or project manager to request TechPass and SEED provisioning via the [TechBiz portal](http://portal.techbiz.suite.gov.sg/).
-- If you have access to the [TechPass portal](https://portal.techpass.gov.sg/),you can sign up for TechPass and SEED provisioning simultaneously. For detailed information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
+- If you have access to the [TechPass portal](https://portal.techpass.gov.sg/), you can sign up for TechPass and SEED provisioning simultaneously. For detailed information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
 - If you already have an active TechPass account and can access the TechPass portal, you can initiate the [SEED provisioning request](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning) from your TechPass account profile.
 - If you are a SE GSIB user with an active TechPass account, you can submit a [service request](https://go.gov.sg/seed-techpass-support) for SEED provisioning.
 
