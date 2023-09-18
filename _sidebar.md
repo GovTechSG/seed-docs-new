@@ -6,7 +6,6 @@
 - **Onboard to SEED**  
   - [Prerequisites](prerequisites-for-onboarding)
 - **Identify onboarding persona**
-  - [Identify onboarding persona](/onboard-device/identify-onboarding-persona)
   - [Onboard as a public officer](onboard-device/public-officer)
   - [Onboard as a vendor](onboard-device/vendor)
 - **Post onboarding steps**    
