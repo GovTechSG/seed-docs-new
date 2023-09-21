@@ -1,4 +1,3 @@
-
 # Prerequisites
 
 Before you begin the process of onboarding your Internet Device to SEED, you need meet the necessary prerequisites. These prerequisites are vital for a successful onboarding experience. 
@@ -15,6 +14,16 @@ Supported OS:
 
 - macOS 11 or higher
 - Windows 10 and 11
+
+## Password requirement
+
+Your new password must meet the following requirements:
+
+- It should contain at least 12 characters.
+- It cannot be the same as any of your previous three passwords.
+- The same character cannot be used consecutively.
+- It cannot have three consecutive characters in sequence.
+- It should include at least one number and one alphabetic character.
 
 ## Request SEED provisioning
 

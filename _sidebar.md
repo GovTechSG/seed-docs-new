@@ -25,6 +25,7 @@
 - **Offboard from SEED**
   - [macOS](/offboard-device/mac-os.md)
   - [Windows](/offboard-device/windows.md)
+  - [Device clean up policy](/offboard-device/device-clean-up-policy.md)
 - **Troubleshooting**
   - [General FAQs](/faqs/general-faq.md)
   - [Onboarding FAQs](/faqs/onboarding-faq.md)
