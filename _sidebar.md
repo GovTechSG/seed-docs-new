@@ -13,6 +13,11 @@
   - [macOS 11 and 12](/post-onboarding-instructions/mac-os.md)
   - [Windows](/post-onboarding-instructions/windows.md)
   - [GCC 1.0 users](/post-onboarding-instructions/gcc-1-users.md)
+- **Configure using CLI tools**
+  - [Configuration of common CLI tools with Cloudflare WARP](/configure-cli-tools/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
+  - [How to clone a bitbucket repository over SSH with Cloudflare access](/configure-cli-tools/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access.md)
+  - [How to clone a GitLab repository over SSH with Cloudlfare access](/configure-cli-tools/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access.md)
+  - [How to generate and upload diagnostic files to incident support request](/configure-cli-tools/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md)
 - **Monitor using SEED Dashboard**
   - [SEED Dashboard overview](/seed-dashboard/seed-overview.md)
   - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)

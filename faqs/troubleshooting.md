@@ -1,8 +1,6 @@
 # Troubleshooting
 
-## Issue 1
-
-**Intermittently experience the error *Account does not have access*.**
+## Intermittently experience the error *Account does not have access*
 
 When accessing SGTS services using Cloudflare WARP, user intermittently experience an error message which states *That account does not have access*.
 
@@ -32,9 +30,7 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 
 3. If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request).
 
-## Issue 2
-
-**Users experience connectivity issues**
+## Users experience connectivity issues
 
 Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
 
