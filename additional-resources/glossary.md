@@ -40,17 +40,17 @@ You must enrol this device with SEED (GovTech's MDM solution) in order to access
 If you are using a non-SE GSIB device, every time you log in to your device, you will be prompted to enter your BitLocker PIN. You can access the internet and intranet using this device.
 
 **Note**<br>
-> You can't onboard this device to SEED.
+> You cannot onboard this device to SEED.
 
 **SE GSIB**
 
 It is a Secured Email (SE) GSIB device. This GSIB device is assigned to public officers who handle sensitive and secret information.
 
-If you are using a SE GSIB device, you will be using your PS-Card to authenticate. You will not be able to access internet using this SE-GSIB device.
+If you are using a SE GSIB device, you will be using your PS-Card to authenticate. You will not be able to access internet using this SE-SIB device.
 
 **Note**<br>
->- You can't use this device to activate your TechPass account.
->- You can't onboard this device to SEED.
+>- You cannot use this device to activate your TechPass account.
+>- You cannot onboard this device to SEED.
 
 **SEED**
 
