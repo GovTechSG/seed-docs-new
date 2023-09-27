@@ -47,7 +47,7 @@ Try running the script again. If you still experience any error, raise a [suppor
 </details>
 
 <details>
-<summary>After successfully completing Phase A to offboard my device from SEED components, I receive the error <b>Intune ID not found. Please manually input your Intune ID</b>. What should I do?</summary>
+<summary>What should I do if I receive the error <b>Intune ID not found. Please manually input your Intune ID</b> after successfully completing Phase A to offboard my device from SEED components.</summary>
 
 You may encounter this error if we are unable to auto-retrieve your Intune Device ID due to incorrect configurations on your device.
 
@@ -62,7 +62,7 @@ If there is a significant time lapse between Phase B and Phase A, the latest ver
 </details>
 
 <details>
-<summary>After submitting the Intune Device ID, I received an email stating that my offboarding was unsuccessful. What should I do?</summary>
+<summary>What should I do if I received an email stating that my offboarding was unsuccessful?</summary>
 
 This can happen if you submitted an incorrect Intune Device ID.
 
@@ -77,7 +77,7 @@ If your offboarding is still unsuccessful despite submitting the correct Intune 
 </details>
 
 <details>
-<summary>After submitting my Intune Device ID, I did not receive the successfully offboarded email. What should I do?</summary>
+<summary>What should I do if I did not receive the successfully offboarded email after submitting my Intune Device ID</summary>
 
 It may take up to 30 minutes for the SEED team to send the successfully offboarded email to you. If you still have not received this email, please raise a [support request](https://go.gov.sg/seed-techpass-support).
 
@@ -85,7 +85,7 @@ If the TechPass and SEED support team completes the offboarding for you, you may
 
 </details>
 
-<details><summary>My Internet Device belongs to Hive organisation. How do I offboard it from Defender using Hive offboarding package?</summary>
+<details><summary>How do I offboard it from Defender using Hive offboarding package if my Internet Device belongs to Hive organisation.?</summary>
 
 
 
