@@ -16,6 +16,8 @@ Raise a [support request](https://go.gov.sg/seed-techpass-support) and request t
 4. Select Production as **Environment**.
 5. Provide all the required details and submit the form.
 
+</details>
+
 <details>
 <summary>Why do I get the error <b>Unknown Tenant detected</b> while running the offboarding package?</summary>
 
