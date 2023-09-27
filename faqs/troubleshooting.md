@@ -1,6 +1,6 @@
 # Troubleshooting
 
-## Experiencing tge *Account does not have access* error
+## Experiencing the *Account does not have access* error
 
 When using SGTS products with Cloudflare WARP, you might encounter an error message saying, "That account does not have access".
 
