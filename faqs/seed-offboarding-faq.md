@@ -85,7 +85,7 @@ If the TechPass and SEED support team completes the offboarding for you, you may
 
 </details>
 
-<details><summary>How do I offboard it from Defender using Hive offboarding package if my Internet Device belongs to Hive organisation.?</summary>
+<details><summary>How do I offboard from Defender using Hive offboarding package if my Internet Device belongs to Hive organisation?</summary>
 
 
 
