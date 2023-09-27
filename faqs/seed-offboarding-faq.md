@@ -1,4 +1,4 @@
-# SEED offboarding FAQs
+# Offboarding FAQ
 
 <details>
 <summary>What should I do if I cannot download the offboarding package?</summary>
