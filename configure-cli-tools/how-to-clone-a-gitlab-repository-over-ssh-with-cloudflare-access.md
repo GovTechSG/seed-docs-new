@@ -1,17 +1,18 @@
 # How to clone GitLab repository using SSH with Cloudflare Access
 
-The following instructions guide you to clone Git repos through SSH connection from https://gitlab-in.ship.gov.sg using Cloudflare tunnel.
+The following instruction guide you on how to clone Git repositories using an SSH connection from https://gitlab-in.ship.gov.sg with Cloudflare tunnel.
 
->**Note**:
-> If you are cloning repos from [SHIP-HATS 2.0 GitLab](https://sgts.gitlab-dedicated.com), use your existing Git client without creating any Cloudflare tunnel. 
+> **Note**:
+> If you are cloning repositories from [SHIP-HATS 2.0 GitLab](https://sgts.gitlab-dedicated.com), use your existing Git client without creating a Cloudflare tunnel.
 
+## Prerequisites
 
-**Prerequisites**
+Before proceeding with the GitLab repository cloning process using SSH and Cloudflare Access, ensure you meet the following prerequisites:
 
-- If you are using an Internet Device, [onboard it to SEED](onboard-device/onboard-device-to-seed).
-- [Verify if you have an existing SSH key pair](https://gitlab-in.ship.gov.sg/help/user/ssh.md#see-if-you-have-an-existing-ssh-key-pair). If it is available, [add the SSH key in Gitlab](https://gitlab-in.ship.gov.sg/-/profile/keys).
-- If you do not have an SSH key pair, [generate SSH key pair](https://gitlab-in.ship.gov.sg/help/user/ssh.md#generate-an-ssh-key-pair) and then add it in GitLab.
-- You should know how to setup and use ssh together with Git.
+- If you are using an Internet Device, make sure it is [onboarded to SEED](onboard-device/onboard-device-to-seed).
+- Verify if you have an existing SSH key pair. If you have one, [add the SSH key in Gitlab](https://gitlab-in.ship.gov.sg/-/profile/keys).
+- If you don't have an SSH key pair, you can [generate an SSH key pair](https://gitlab-in.ship.gov.sg/help/user/ssh.md#generate-an-ssh-key-pair) and then add it to GitLab.
+- Familiarity with setting up and using SSH together with Git is required.
 
 > **Note**:
 > Refer to [SSH key pairs](https://gitlab-in.ship.gov.sg/help/user/ssh) for additional information.
@@ -80,14 +81,14 @@ The token is saved in your `~/.cloudflared` directory, and the git clone command
 2. Save the .exe file in a desired location and rename it as `cloudflared.exe`.
 
 > **Note**:
-> you do not need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
+>Yyou do not need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
 
 3. To make a one-time change to your SSH configuration file, open your ssh config file `$HOME/.ssh/config`.
 
 > **Note**:
 > If this file does not exist, create it.
 
-4. Append the following lines:
+4. Execute the following command:
 
 ```
 Host bitbucket-ssh.ship.gov.sg
