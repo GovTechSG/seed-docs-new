@@ -27,9 +27,9 @@
   - [Windows](/offboard-device/windows.md)
   - [Device clean up policy](/offboard-device/device-clean-up-policy.md)
 - **Troubleshooting**
-  - [General FAQs](/faqs/general-faq.md)
-  - [Onboarding FAQs](/faqs/onboarding-faq.md)
-  - [Offboarding FAQs](/faqs/seed-offboarding-faq.md)
+  - [General FAQ](/faqs/general-faq.md)
+  - [Onboarding FAQ](/faqs/onboarding-faq.md)
+  - [Offboarding FAQ](/faqs/seed-offboarding-faq.md)
   - [Troubleshooting](/faqs/troubleshooting.md)
 - **Support**
   - [Create support request](raise-an-incident-support-request)
