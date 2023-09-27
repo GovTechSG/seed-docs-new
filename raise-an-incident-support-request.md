@@ -1,4 +1,4 @@
-# Create support request
+# Raise a support request
 
 Create an incident support request if you experience:
 

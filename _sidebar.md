@@ -32,7 +32,7 @@
   - [Offboarding FAQ](/faqs/seed-offboarding-faq.md)
   - [Troubleshooting](/faqs/troubleshooting.md)
 - **Support**
-  - [Create support request](raise-an-incident-support-request)
+  - [Raise a support request](raise-an-incident-support-request)
   - [View SEED service status](seed-status)
   - [Terms and policies](additional-resources/terms-and-policies.md)
 - **Additional resources**  
