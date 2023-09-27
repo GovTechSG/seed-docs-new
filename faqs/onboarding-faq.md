@@ -1,67 +1,61 @@
 # Onboarding FAQ
 
 <details>
-  <summary>What should I do if profile installation fails while installing the management profile?</summary>
+  <summary>What to do if profile installation fails during management profile installation?</summary>
 
-<!--<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>-->
-
-1. Ensure you received an email from us confirming the licence required for SEED onboarding has been assigned to you. If yes, proceed to step 2.
-2. Go to the **Apple** menu > **System Preferences** > **Profiles**.
-3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
-4. If you are unable to remove Management Profile, uninstall **Company Portal**.
+1. Ensure you have received an email confirming that the required SEED onboarding license has been assigned to you. If you have received this confirmation, proceed to step 2.
+2. Navigate to the **Apple** menu > **System Preferences** > **Profiles**.
+3. If you already have an existing **Management Profile**, select it and remove it by clicking the minus icon at the lower-left corner.
+4. If you encounter difficulties removing the **Management Profile**, uninstall **Company Portal**.
 5. Reinstall [Company Portal](https://go.microsoft.com/fwlink/?linkid=853070).
 6. [Onboard your device to SEED](onboard-device/onboard-device-to-seed).
 
-
 </details>
-
-</details>
-<details><summary>I have already enrolled my device with Microsoft Intune under my organisation or with other MDM solution. Will this impact when I onboard my device to SEED?</summary>
-
-Yes, this impacts your SEED onboarding. Before onboarding to SEED, remove your existing Microsoft Intune enrolment under your organisation's tenancy or other MDM solution on your device.
-
-</details>
-<details><summary>What data is collected by Microsoft Intune?</summary>
-
-To know about the data collected by Microsoft Intune, refer to [Data collection in Intune](https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect).
-
-
 <details>
-  <summary>Microsoft Defender does not get automatically installed after enrolling to Company Portal?</summary>
+  <summary>How does enrolling my device with Microsoft Intune or other MDM solutions impact my SEED onboarding?</summary>
 
-  This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
+  Enrolling your device with Microsoft Intune or other MDM solutions can have an impact on your SEED onboarding process. It's important to remove any existing enrollments with Microsoft Intune or other MDM solutions from your device before proceeding with SEED onboarding.
 
-  To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+</details>
+<details>
+  <summary>What data is collected by Microsoft Intune?</summary>
 
-  </details>
+  To learn about the data collected by Microsoft Intune, please refer to [Data collection in Intune](https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect).
+
+</details>
+<details>
+  <summary>Why is Microsoft Defender not automatically installed after enrolling in Company Portal?</summary>
+
+  This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED. To address this, please verify that Microsoft Defender is correctly configured on your device by following the steps provided in [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+
+</details>
   
+<details>
+  <summary>While onboarding to Microsoft Intune, I receive an error message: "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired." What should I do?</summary>
 
-  <details>
-  <summary>While onboarding to Microsoft Intune, I get an error <b>Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired</b>.</summary>
+  One possible reason for this error is that your device may have been previously onboarded to Microsoft Intune by a different user and was not properly offboarded during the pre-onboarding steps.
 
-  One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.
+  To confirm this, please [create a support request][raise-support-request] and provide your device's serial number. The SEED team will investigate whether your device was previously enrolled in Microsoft Intune under a different user.
 
-  To confirm if that is the case, [create a support request][raise-support-request] with your device serial number.
+  If this is confirmed, you can choose one of the following options to offboard your device from Microsoft Intune and then retry the SEED onboarding process:
 
-  The SEED team can verify if your device was previously enrolled to Microsoft Intune under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Intune and then retry onboarding your device to SEED.
-
-  - If you are a Windows user, refer to [SEED offboarding steps][seed-offboarding-steps].
-
-  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding steps][seed-offboarding-steps].
-
-  </details>
+  - For Windows users, refer to the [SEED offboarding steps][seed-offboarding-steps].
+  - For macOS users, go to **System Preferences** and locate the old Management Profile. Follow the [SEED offboarding steps][seed-offboarding-steps].
+</details>
   
-
-  <details>
-  <summary>What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
+<details>
+  <summary>What should I do if my device is not automatically renamed after SEED onboarding?</summary>
 
   This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
-  </details>
-  
+</details>
+
 
 <details>
-  <summary>While enabling Full Disk Access(FDA), I can't find <b>TaniumClient</b>. What should I do?</summary>
+  <summary>While enabling Full Disk Access (FDA), I could not find <b>TaniumClient</b>. What should I do?</summary>
+
+  If **TaniumClient** is not visible while enabling Full Disk Access (FDA), follow these steps:
+
 
   1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
@@ -74,31 +68,34 @@ To know about the data collected by Microsoft Intune, refer to [Data collection 
 
 </details>
 
-
 <details>
-<summary>While enabling Full Disk Access(FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+  <summary>While enabling Full Disk Access (FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+
+  If **Microsoft Intune Agent** and **Microsoft Defender for Endpoint** are not visible while enabling Full Disk Access (FDA), follow these steps:
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
-3. From the left pane, choose **Full Disk Access**.
+3. In the left pane, select **Full Disk Access**.
 4. Click the lock icon at the lower left and use your Touch ID or enter your password to unlock.
-5. Click the plus icon on the Full Disk Access pane and do the following as required:
-  - To add **Microsoft Intune Agent**, go to **Macintosh HD** >  **Library** > **Intune** and open **Microsoft Intune Agent.app**.
-  - To add **Microsoft Defender for Endpoint**, go to **Application** > select **Microsoft Defender for Endpoint** and click **Open**.
-</details>
-
-
-<details><summary>While enabling Full Disk Access(FDA), I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
-
-Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please create a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
+5. Click the plus icon on the **Full Disk Access** pane and follow these steps as needed:
+   - To add "Microsoft Intune Agent," navigate to **Macintosh HD** > **Library** > **Intune** and open **Microsoft Intune Agent.app**.
+   - To add "Microsoft Defender for Endpoint," go to **Applications**, select **Microsoft Defender for Endpoint**, and click **Open**.
 
 </details>
-
 
 <details>
-<summary>When enabling FileVault or Full Disk Access, I am unable to unlock Security & Privacy preferences using my current password.</summary>
+  <summary>While enabling Full Disk Access (FDA), I cannot find <b>Microsoft Defender Endpoint Security Extension</b>. Can I proceed with onboarding?</summary>
 
-This is because a new password policy has been enforced and you are required to reset your password.
+  Yes, you can proceed with your SEED onboarding, and **Microsoft Defender Endpoint Security Extension** should become available within four hours. If it does not become available after four hours, please raise a [Support Request](raise-an-incident-support-request) as it is necessary to ensure the completeness of your onboarding.
+
+</details> 
+
+<details>
+  <summary>When enabling FileVault or FDA, I am unable to unlock Security & Privacy preferences using my current password. What should I do?</summary>
+
+  This issue may arise due to a new password policy that requires you to reset your password. 
+  
+  Follow these steps:
 
 1. Go to the **Apple** menu and choose **Lock Screen** or press **Command+Control+Q**.
 2. Enter your current password and press **Return**.
@@ -110,118 +107,117 @@ This is because a new password policy has been enforced and you are required to 
 
 Possible reasons:
 
-- Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
-- Tanium and Cloudflare did not get installed while onboarding to SEED.
+- Microsoft Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
+- Tanium and Cloudflare were not installed while onboarding to SEED.
 
 Before raising a support request, confirm the following:
 
 - [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
-- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, [create a support request][raise-support-request].
+- Check if Tanium and Cloudflare are installed. These applications should be automatically installed during device enrolment with SEED. If they are not installed, [raise a support request][raise-support-request].
 
 </details>
 
 
 <details>
-<summary>While approving the management profiles, I get a message <b>Profiles cannot be approved while using remote or automated input method</b>. What should I do?</summary>
+  <summary>While approving the management profiles, I get a message <b>Profiles cannot be approved while using remote or automated input method</b>. What should I do?</summary>
 
- Upgrade to the [latest macOS version][upgrade-macos] and ensure there is enough disk space available on your Mac device before retrying.
+  To resolve this issue, upgrade to the [latest macOS version][upgrade-macos] and ensure your Mac device has sufficient available disk space before attempting to approve the management profiles.
+
 
 </details>
 
+<details>
+  <summary>What are the password requirements for SEED onboarding?</summary>
+  The password requirements for SEED onboarding are as follows:
+
+- It should contain at least 12 characters.
+- It should not be the same as the previous three passwords.
+- The same character cannot be used consecutively.
+- It cannot have three sequential characters.
+- It should contain at least one number and one alphabetic character.
+</details>
 
 <details>
+  <summary>How can I reset my password on macOS?</summary>
+If you encounter password reset issues on macOS, it may be due to new password requirements. Here are three options for resetting your password:
 
-  <summary>How do I reset my password on maOS?</summary>
+<details>
+  <summary>Reset password using Apple ID</summary>
 
-This may occur if your new password does not meet the following password requirements:
+Refer to [Reset your Mac login password using Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
+</details>
 
-  - should contain at least 12 characters.
-  - should not be the same as the previous three passwords.
-  - same character cannot be used consecutively.
-  - cannot have three sequential characters.
-  - should contain at least one number and one alphabetic character.
+<details>
+  <summary>Reset password Using recovery key</summary>
 
-Following are the three options available to reset your password:
+**To reset your password using a recovery key**:
 
-  <details><summary>Reset password using Apple ID</summary>
+1. Click the question mark next to the password field in the login window.
 
- Refer to [Reset your Mac login password uisng Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
- 
-  </details>
+?> If you do not see a question mark, press and hold the power button until your Mac shuts down, then press the power button to restart your Mac. Alternatively, enter any password three times.
 
-  <details><summary>Reset password using recovery key</summary>
+2. Click **If you forgot your password, you can reset it using your Recovery Key**.
+3. Enter the recovery key, making sure to use uppercase letters and include hyphens.
+4. Reset your password.
+</details>
 
-  **To reset password using recovery key**
-
-  1. Click the question mark next to the password field in the login window.
-
-  ?> If you don't see a question mark, press and hold the power button until your Mac shuts down, then press the power button to restart your Mac. Alternatively, enter any password three times.
-
-  2. Click  **If you forgot your password, you can reset it using your Recovery Key**.
-  3. Enter the recovery key. Make sure to use uppercase letters and to enter the hyphens.
-  4. Reset your password.
-
-  </details>
-
-  <details>
+<details>
   <summary>Reset password using recovery mode</summary>
 
-  If you have do not have an Apple ID or a recovery key, depending on the chip on your Mac device, start your Mac in recovery mode to reset password.
+If you do not have an Apple ID or a recovery key, you can reset your password in recovery mode based on your Mac's chip:
 
 <!-- tabs:start -->
 
-#### **M1 chip**
-  1. Restart or shutdown the device by pressing the power button until the screen is black and any lights (including in the Touch Bar) are off.
-  1. Press and hold the power button on your Mac until the **Loading startup options** appears. After a few seconds you’ll see two icons: **Macintosh HD** and **Options**.
-  1. Click **Options** and choose the user account for which you know the password and click **Next**.
-  1. Enter the password to continue.
-  1. Go to **Applications** > **Utilities** > **Terminal**.
-  1. Enter `resetpassword` and press `return`. The **Reset Password** assistant will be displayed.
-  1. Select **My password doesn’t work when logging in** and click **Next**.
-  1. If prompted, select the user account for which you need to change password.
-  1. Type the old password and new password in the respective fields.
-  1. Type the new password in **Verify password** and specify a **Password hint**.
-  1. Click **Next**.
-  1. Restart your device and in the login screen, choose your user account and type your new password.
+#### **M1 Chip**
+1. Restart or shut down your device by pressing the power button until the screen is black and all lights, including the Touch Bar, are off.
+2. Press and hold the power button on your Mac until the **Loading startup options** screen appears. After a few seconds, you’ll see two icons: **Macintosh HD** and **Options**.
+3. Click **Options** and select your user account, then click **Next**.
+4. Enter your password to continue.
+5. Go to **Applications** > **Utilities** > **Terminal**.
+6. Enter `resetpassword` and press `return`. The **Reset Password** assistant will be displayed.
+7. Choose **My password doesn’t work when logging in** and click **Next**.
+8. If prompted, select the user account for which you need to change the password.
+9. Enter the old password and your new password in the respective fields.
+10. Type the new password again to verify and provide a password hint.
+11. Click **Next**.
+12. Restart your device and, on the login screen, select your user account and enter the new password.
 
+> **Notes**:
 
-  > **Notes**:
-  >
-  >1. If you are still unable to reset your password, repeat steps 1-6.
-  >2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
-  >3. Disable FileVault on the volume **Macintosh HD**.
-  >4. Restart your device and in the login screen, choose your user account and type your new password.
+> 1. If you still cannot reset your password, repeat steps 1-6.
+> 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
+> 3. Disable FileVault on the **Macintosh HD** volume.
+> 4. Restart your device and, on the login screen, select your user account and enter the new password.
 
-#### **Intel chip**
+#### **Intel Chip**
 
-  1. Restart the device by pressing the power button while holding down the `Command + R` keys.
-  1. Release the keys when you see the load bar.
-  1. Go to **Applications** > **Utilities** > **Terminal**.
-  1. Enter `resetpassword` and press `return`. The **Reset Password** assistant will be displayed.
-  1. Select **My password doesn’t work when logging in** and click **Next**.
-  1. If prompted, select the user account for which you need to change password.
-  1. Type the old password and new password in the respective fields.
-  1. Type the new password in **Verify password** and specify a **Password hint**.
-  1. Click **Next**.
-  1. Restart your device and in the login screen, choose your user account and type your new password.
+1. Restart your device by pressing the power button while holding down the `Command + R` keys.
+2. Release the keys when you see the load bar.
+3. Go to **Applications** > **Utilities** > **Terminal**.
+4. Enter `resetpassword` and press `return`. The **Reset Password** assistant will be displayed.
+5. Choose **My password doesn’t work when logging in** and click **Next**.
+6. If prompted, select the user account for which you need to change the password.
+7. Enter the old password and your new password in the respective fields.
+8. Type the new password again to verify and provide a password hint.
+9. Click **Next**.
+10. Restart your device and, on the login screen, select your user account and enter the new password.
 
+> **Notes**:
 
-  > **Notes**:
-  >
-  >1. If you are still unable to reset your password, repeat steps 1-4.
-  >2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
-  >3. Disable FileVault on the volume **Macintosh HD**.
-  >4. Restart your device and in the login screen, choose your user account and type your new password.
+> 1. If you still cannot reset your password, repeat steps 1-4.
+> 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
+> 3. Disable FileVault on the **Macintosh HD** volume.
+> 4. Restart your device and, on the login screen, select your user account and enter the new password.
 
 <!-- tabs:end -->
 
 </details>
 </details>
-     
+</details>     
 
 <details>
-<summary>While I register my Intune Device ID on the TechPass portal, what should I do if my onboarding fails due to one of the following reasons?</summary>
+  <summary>What should I do if my onboarding fails while registering my Intune Device ID on the TechPass portal?</summary>
 
 As a prerequisite, ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.
 
@@ -233,13 +229,10 @@ As a prerequisite, ensure the device you are onboarding to SEED has a stable int
 | Software Misconfiguration Error | [Create a support request](https://go.gov.sg/seed-techpass-support).|
 | Endpoint Error | <br>1. Ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.<br>2. Go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Create a support request](https://go.gov.sg/seed-techpass-support). |
 | Software Installation Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Create a support request](https://go.gov.sg/seed-techpass-support).|
-| Internal Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Create a support request](https://go.gov.sg/seed-techpass-support).|
-| Device that is trying to onboard is a DWP device. Please onboard with a non-DWP device.| You can't onboard DWP device to SEED. You can onboard only an Internet Device to SEED. |
+| Internal Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Create a support request](https://go.gov.sg/seed-techpass-support).|
+| Device that is trying to onboard is a DWP device. Please onboard with a non-DWP device.| You can't onboard a DWP device to SEED. You can onboard only an Internet Device to SEED. |
 
 </details>
-   
-
-
 
 
    

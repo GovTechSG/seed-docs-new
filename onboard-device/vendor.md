@@ -1,5 +1,14 @@
 # Onboard to SEED as a vendor
 
+This document provides a step-by-step guide to help vendors through the onboarding process for the Secure Engineering Environment for Developers (SEED). Before proceeding, make sure you meet the prerequisites outlined below.
+
+## Prerequisites
+
+Before proceeding with the onboarding process, vendors must meet the following prerequisites to ensure a seamless experience:
+
+- Your TechPass login ID must end with **techpass.gov.sg**. For example, john_doe@techpass.gov.sg.
+
+
 ## macOS
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->

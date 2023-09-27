@@ -1,6 +1,13 @@
 # Onboard to SEED as a public officer
 
-<!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
+This document provides a step-by-step guide to help public officers through the onboarding process for the Secure Engineering Environment for Developers (SEED). Before proceeding, make sure you meet the prerequisites outlined below.
+
+## Prerequisites
+
+Before proceeding with the SEED (Secure Engineering Environment for Developers) onboarding process as a public officer, ensure you meet the following prerequisites:
+
+- Your TechPass login ID must match your work email, typically associated with a WOG (Whole-of-Government) account. For example, john_doe@moe.gov.sg or john_doe_from.cognizant@tech.gov.sg.
+
 
 ## macOS
 

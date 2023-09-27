@@ -1,10 +1,10 @@
 # Configuration of common Developer CLI tools with Cloudflare WARP
 
-This article tells you how to configure the following common applications.
+This guide provides instructions on how to configure the following commonly used applications by software developers in Singapore Government agencies.
 
 > **Note**:
->- Tools listed here are the common applications/tools used by software developers in the Singapore Government agencies.
->- To configure other applications or tools, refer to the [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert).
+>- The tools listed here are commonly used by software developers in Singapore Government agencies.
+>- For configuring other applications or tools, refer to the [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert).
 
 - [Node.js and NPM](#nodejs-and-npm)
 - [Docker](#docker)
@@ -12,18 +12,17 @@ This article tells you how to configure the following common applications.
 - [Golang](#golang)
 
 > **Note**:
->- If you are experiencing issues while using any CLI tools and applications to access SGTS services, create a support request. For more information, refer to [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request).
->- All other issues that are not related to SGTS services, contact [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us)
+>- If you encounter any issues while using CLI tools and applications to access SGTS services, please create a support request.  For more information, refer to [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request).
+>- For all other issues unrelated to SGTS products, contact [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us)
 
 ## Node.js and NPM
 
 
-Node.js and NPM use a hardcoded certificate store and requires additional configuration to trust the Cloudflare Certificate.
+Node.js and NPM use a hardcoded certificate store and require additional configuration to trust the Cloudflare Certificate.
 
 **macOS users**
 
-If you are using macOS, Zsh is likely to be your default terminal. If you are using zsh, please run the following commands:
-
+If you are using macOS and Zsh is your default terminal, execute the following commands:
 
 ```bash
 mkdir -p "${HOME}/.config/.cloudflare"
@@ -33,7 +32,8 @@ source "${HOME}/.zshrc"
 ```
 **Linux users**
 
-If you are using Linux, Bash is likely to be your default terminal. If you are using bash, please run the following commands:
+
+If you are using Linux, Bash is your default terminal. Execute the following commands:
 
 ```bash
 mkdir -p "${HOME}/.config/.cloudflare"
@@ -45,27 +45,24 @@ source "${HOME}/.bashrc"
 
 ## Docker
 
-<!--Docker for Desktop makes use of virtual machines to host the Docker engine. The Docker engine must be configured to trust the Cloudflare Certificate.
-
-Please follow the Documentation for Docker for Desktop for [Mac](https://docs.docker.com/desktop/mac/#add-tls-certificates) or [Windows](https://docs.docker.com/desktop/windows/#adding-tls-certificates) to install the Cloudflare Cert.-->
-
 Docker for Desktop on macOS and Windows uses virtual machines to host the Docker engine. The Docker engine must be configured to trust the Cloudflare Certificate.
 
 Following are the instructions for the smooth operation of the Docker engine behind the Cloudflare WARP, but note this is **not recommended** for building a production-ready Docker images.
 
 > **Tip**:
-> You may consider building your Docker images using [SHIP-HATS CI/CD]( https://www.ship.gov.sg/).
+> Consider building your Docker images using [SHIP-HATS CI/CD]( https://www.ship.gov.sg/).
 
 - [Pull Docker images from a Docker image repository with Cloudflare Warp](#pull-docker-images-from-a-docker-image-repository-with-cloudflare-warp)
 - [Connect operating system in your Docker container to Internet with Cloudflare Warp](#connect-operating-system-in-your-docker-container-to-internet-with-cloudflare-warp)
 
 ### Pull Docker images from a Docker image repository with Cloudflare Warp
 
-To pull Docker images from a Docker image repository with Cloudflare Warp turned on, you must configure the Docker engine on your host machine to trust the Cloudflare Certificate Authority (CA) certificate.
+To pull Docker images from a Docker image repository with Cloudflare Warp turned on, you need to configure the Docker engine on your host machine to trust the Cloudflare Certificate Authority (CA) certificate.
 
 **To configure Docker engine on your host machine to trust Cloudflare Certificate Authority (CA) certificate**
 
-1.	Locate the Docker engine configuration directory on your host machine. This is usually the `.docker` directory in your user home directory. Create the `.docker` directory if it does not exist.
+
+1.	Locate the Docker engine configuration directory on your host machine. This directory is commonly named `.docker` and is typically located in your user home directory. Create the `.docker` directory if it does not exist.
 2.	Locate the certificate directory for your Docker image repository. This is located in the `certs.d` directory in the `.docker` directory. Create the directory for your Docker Image repository if it does not exist in the `certs.d` directory.
 
 For example, `mkdir -p ~/.docker/certs.d/registry-in.ship.gov.sg`.
@@ -79,18 +76,16 @@ curl -sSLj -o ~/.docker/certs.d/registry-in.ship.gov.sg/ca-certificates.crt http
 
 ### Connect operating system in your Docker container to Internet with Cloudflare Warp
 
-To connect the operating system in your Docker container to the Internet with Cloudflare Warp turned on, you need to configure the operating system on the Docker container to trust the Cloudflare CA certificate.
+To establish a connection between the operating system in your Docker container and the Internet with Cloudflare Warp enabled, you need to configure the operating system on the Docker container to trust the Cloudflare CA certificate.
 
 **To configure operating system to trust Cloudflare certificate**
 
-The following Dockerfile snippet shows how to configure the operating system to trust the Cloudflare Certificate.  
+The Dockerfile snippet below demonstrates how to configure the operating system to trust the Cloudflare Certificate.
 
-**Prerequisite**
-
-- Turn off Cloudflare WARP and run the apt-get commands. This is needed to run the above Dockerfile correctly.
+- Disable Cloudflare WARP and execute the `apt-get commands`. This step is required to correctly run the Dockerfile provided below.
 
 > **Note**:
-> Source of the following snippet is ubuntu.
+> The source of the following snippet is Ubuntu.
 
 ```
 RUN \
@@ -102,9 +97,14 @@ RUN \
 
 ## AWS CLI
 
-AWS CLI uses its own certificate store. It must be configured to trust the Cloudflare Certificate.
+AWS CLI utilises its own certificate store. It must be configured to trust the Cloudflare Certificate.
 
 For Linux & macOS users:
+
+1. Open your terminal.
+
+2. Run the following command to navigate to the directory containing AWS CLI certificates:
+
 ```bash
 mkdir -p "${HOME}/.config/.cloudflare"
 curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem"

@@ -1,6 +1,6 @@
 # Offboard Windows device from SEED
 
-This document guides you to offboard your Windows device onboarded to SEED.
+ This guide provides instructions for you to offboard your Windows device onboarded to SEED.
 
 ## Audience
 
@@ -8,18 +8,20 @@ This document guides you to offboard your Windows device onboarded to SEED.
 
 ## Prerequisites
 
-- You must have an active TechPass account.
-- Your device must have been onboarded to SEED.
-- [Optional] We recommend you to have your Intune Device ID ready.
+Before you begin, make sure you have the following:
+
+- An active TechPass account
+- A SEED onboarded device
+- [Optional] Your Intune Device ID 
 
 ### Get Intune Device ID
 
-Complete one of the following methods to get your Intune Device ID:
+You need your Intune Device ID during the offboarding process. Here is how to find it:
 
 ?> **Tip**<br>Click the triangle to view more details about each method.
 
 <details>
-<summary>Method 1: Get Intune Device ID from your GMD</summary>
+<summary>Method 1: Retrieve Intune Device ID from your Windows device</summary>
 
 1. Open **PowerShell** and run the following commands:
 
@@ -45,7 +47,7 @@ Write-Output $intune_id
 </details>
 
 <details>
-<summary>Method 2: Get Intune Device ID from TechPass portal</summary>
+<summary>Method 2: Retrieve Intune Device ID from TechPass portal</summary>
 
 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed.
@@ -57,17 +59,16 @@ Write-Output $intune_id
 
 
 <details>
-<summary>Method 3: Submit an incident request to get Intune Device ID.</summary>
+<summary>Method 3: Raise a support request to retrieve Intune Device ID.</summary>
 
-?> **Note**<br>Use this method only if you cannot log in to your GMD or TechPass portal.
+?> **Note**<br>Use this method if you cannot log in to your GMD or TechPass portal.
 
-- Submit an [incident request](https://go.gov.sg/seed-techpass-support) to get your Intune Device ID.
+- Raise a [support request](https://go.gov.sg/seed-techpass-support) to retrieve your Intune Device ID.
 
 </details>
 
-
-
-!> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/seed-techpass-support) with TechPass and SEED support.
+> **Note**:
+> For more information, refer to [Offboarding FAQs](/faqs/seed-offboarding-faqs).
 
 
 ## Phase A: Offboard device from SEED components
@@ -98,7 +99,15 @@ echo $OrgID
   | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
-  !> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, you need to use your TechPass to download the offboarding package and proceed with the remaining steps.<br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
+!> **Important**
+>
+> - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
+>   
+> - If your **Defender organisation** is either **WOG** or **TechPass**, you should use your TechPass account to download the offboarding package and proceed with the remaining steps.
+>   
+> - If your **Defender organisation** is **none of the above**, please reach out to the IT support of the organization that provided you with the device for further assistance.
+
+
 
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
@@ -141,10 +150,12 @@ When you see the following success message on your **Powershell**, you are autom
 ### Prerequisites
 
 - Successful completion of [Phase A: Offboard device from SEED components](#phase-a-offboard-device-from-seed-components).
-- **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form. If it is not displayed, see [Get Intune Device ID](#get-intune-device-id).
-- [Optional]If you have submitted an incident request with the TechPass and SEED support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
+- **Intune Device ID**: Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form. If it is not displayed, see [Get Intune Device ID](#get-intune-device-id).
+- [Optional] If you had submitted an incident request with the TechPass and SEED support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
 
-### To submit Intune Device ID
+### Submit Intune Device ID
+
+**To submit Intune Device ID**:
 
 1. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it.
 2. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
@@ -156,5 +167,5 @@ When you see the following success message on your **Powershell**, you are autom
 ![successfully-offboarded-email](../images/offboarding-windows/win-successfully-offboarded-email.png)
 
 
-?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass and SEED support request](https://go.gov.sg/seed-techpass-support).
+?> **Additional Information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please raise a [support request](https://go.gov.sg/seed-techpass-support).
 

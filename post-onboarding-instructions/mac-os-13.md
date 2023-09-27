@@ -5,7 +5,7 @@
   - [Ensure Full Disk Access(FDA) is enabled for SEED components](#ensure-full-disk-accessfda-is-enabled-for-seed-components)
   - [Turn on Cloudflare WARP for macOS](#turn-on-cloudflare-warp-for-macos)
 
-## Ensure Full Disk Access(FDA) is enabled for SEED components
+## Ensure Full Disk Access (FDA) is enabled for SEED components
 
 After onboarding, ensure FDA is enabled for the following SEED components:
 
