@@ -48,7 +48,7 @@ Docker for Desktop on macOS and Windows relies on virtual machines to host the D
 
 These instructions are provided to ensure the Docker engine functions seamlessly alongside Cloudflare WARP. However, it's important to note that this approach is not the recommended method for building production-ready Docker images.
 
-For a more suitable solution, explore [SHIP-HATS CI/CD](https://www.ship.gov.sg/) for Docker image creation.
+For a more suitable solution, explore [SHIP-HATS CI/CD](https://www.ship.gov.sg/) for Docker image creation
 
 - [Pull Docker images from a Docker image repository with Cloudflare Warp](#pull-docker-images-from-a-docker-image-repository-with-cloudflare-warp)
 - [Connect operating system in your Docker container to Internet with Cloudflare Warp](#connect-operating-system-in-your-docker-container-to-internet-with-cloudflare-warp)

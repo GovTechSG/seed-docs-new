@@ -16,7 +16,7 @@ Before you begin, make sure you have the following:
 
 ### How to obtain Intune Device ID
 
-You may need your Intune Device ID during the offboarding process. Here is how to find it:
+You need your Intune Device ID during the offboarding process. Here is how to find it:
 
 ?> **Tip**<br>Click the triangle to view more details about each method.
 
@@ -86,7 +86,7 @@ echo "$actual_id"
 
 
 > **Note**:
-> For more information, refer to [Offboarding FAQs](/faqs/seed-offboarding-faqs).
+> For more information, refer to [Offboarding FAQ](/faqs/seed-offboarding-faq).
 
 ## Phase A: Offboard device from SEED components
 
@@ -153,10 +153,12 @@ When you see the following success message on your **Terminal**, you will be aut
 ### Prerequisites
 
 - Successful completion of [Phase A: Offboard device from SEED components](#phase-a-offboard-device-from-seed-components).
-- **Intune Device ID**: Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form. If it is not displayed, see [Get Intune Device ID](#get-intune-device-id).
-- [Optional] If you had submitted an incident request with the TechPass and SEED support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
+- **Intune Device ID**: Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form. If it is not displayed, see [Get Intune Device ID](#how-to-obtain-intune-device-id).
+- [Optional] If you had raised a support request with the TechPass and SEED support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
 
-### To submit Intune Device ID
+### Submit Intune Device ID
+
+**To submit Intune Device ID**:
 
 1. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it.
 2. Enter your organizational email address in **Organizational Email Address** and click **Verify**.

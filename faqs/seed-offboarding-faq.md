@@ -33,7 +33,7 @@ If you had properly onboarded your device to SEED earlier but still get this err
 This error indicates that your offboarding package is outdated.
 
 For detailed steps on offboarding your device, please refer to the appropriate guide:
-- [Windows offboarding Sseps](offboard-device/windows)
+- [Windows offboarding steps](offboard-device/windows)
 - [macOS ofboarding steps](offfboard-device/mac-os)
 
 Download the offboarding package from the provided page and complete the offboarding steps.
@@ -56,7 +56,7 @@ You may encounter this error if we are unable to auto-retrieve your Intune Devic
 
 1. To get your Intune Device ID, either:
     - Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and retrieve the Intune Device ID from your account profile.
-    - If you can't access the TechPass portal, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain your Intune Device ID.
+    - If you cannot access the TechPass portal, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain your Intune Device ID.
 
 2. Once you have your Intune Device ID, proceed with **Phase B: Submit Intune Device ID** to remove the device record.
 
@@ -71,12 +71,12 @@ This can happen if you submitted an incorrect Intune Device ID.
 
 1. To get your correct Intune Device ID, either:
     - Retrieve the Intune Device ID from your account profile on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-    - If you can't access the TechPass portal, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain the correct Intune Device ID.
+    - If you cannot access the TechPass portal, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain the correct Intune Device ID.
 
-2. Complete the [offboarding steps](offboard-device/offboard-device-from-seed) for your device.
+2. Complete the offboarding steps for your device.
 
 For detailed steps on offboarding your device, please refer to the appropriate guide:
-- [Windows offboarding Sseps](offboard-device/windows)
+- [Windows offboarding steps](offboard-device/windows)
 - [macOS ofboarding steps](offfboard-device/mac-os)
 
 If your offboarding is still unsuccessful despite submitting the correct Intune Device ID, please raise a [support request](https://go.gov.sg/seed-techpass-support).

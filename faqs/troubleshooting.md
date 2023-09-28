@@ -24,7 +24,7 @@ When using SGTS products with Cloudflare WARP, you might encounter an error mess
 
 2. If you are running a VPN client along with WARP, ensure that the VPN configuration doesn't route all traffic and DNS queries to the VPN server.
 
-3. If the issues persist, [generate a diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request).
+3. If the issues persist, [generate a diagnostic report](configure-cli-tools/how-to-generate-and-upload-diagnostic-files-tp-incident-support-reqest) and upload it to the [support request](https://go.gov.sg/seed-techpass-support).
 
 
 ## Connectivity issues for macOS WARP users

@@ -11,7 +11,7 @@ This guide provides step-by-step instructions on generating and uploading diagno
 
 1. Log in to the [Cloudflare Access Application Launcher](https://gccgovsg.cloudflareaccess.com).
 2. Click on your profile name in the upper-right corner and select **Account**.
-3. Navigate to the **Diagnostics** section and click on **Click to copy**.
+3. Navigate to the **Diagnostics** section and click **Click to copy**.
 4. Paste the copied information into a text file and attach it to your support request.
 
 ## Generate Cloudflare WARP diagnostic logs

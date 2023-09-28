@@ -9,7 +9,7 @@ The following instruction guide you on how to clone Git repositories using an SS
 
 Before proceeding with the GitLab repository cloning process using SSH and Cloudflare Access, ensure you meet the following prerequisites:
 
-- If you are using an Internet Device, make sure it is [onboarded to SEED](onboard-device/onboard-device-to-seed).
+- If you are using an Internet Device, make sure it is [onboarded to SEED](onboard-device/identify-onboarding-persona).
 - Verify if you have an existing SSH key pair. If you have one, [add the SSH key in Gitlab](https://gitlab-in.ship.gov.sg/-/profile/keys).
 - If you don't have an SSH key pair, you can [generate an SSH key pair](https://gitlab-in.ship.gov.sg/help/user/ssh.md#generate-an-ssh-key-pair) and then add it to GitLab.
 - Familiarity with setting up and using SSH together with Git is required.
