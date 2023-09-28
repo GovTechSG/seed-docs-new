@@ -1,5 +1,6 @@
-- **Overview**
-  - [Overview](overview)
+- **Getting started**
+  - [Home](README.md)
+  - [SEED overview](overview)
 - **What's new**
   - [Release notes](release-notes)
   - [Announcements](announcements)
