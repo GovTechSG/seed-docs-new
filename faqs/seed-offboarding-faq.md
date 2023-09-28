@@ -32,8 +32,11 @@ If you had properly onboarded your device to SEED earlier but still get this err
 
 This error indicates that your offboarding package is outdated.
 
-1. Follow the [offboarding steps](offboard-device/offboard-device-from-seed) for your device's operating system.
-2. Download the offboarding package from the provided page and complete the offboarding steps.
+For detailed steps on offboarding your device, please refer to the appropriate guide:
+- [Windows offboarding Sseps](offboard-device/windows)
+- [macOS ofboarding steps](offfboard-device/mac-os)
+
+Download the offboarding package from the provided page and complete the offboarding steps.
 
 If you continue to experience the same or any other error, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
@@ -71,6 +74,10 @@ This can happen if you submitted an incorrect Intune Device ID.
     - If you can't access the TechPass portal, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain the correct Intune Device ID.
 
 2. Complete the [offboarding steps](offboard-device/offboard-device-from-seed) for your device.
+
+For detailed steps on offboarding your device, please refer to the appropriate guide:
+- [Windows offboarding Sseps](offboard-device/windows)
+- [macOS ofboarding steps](offfboard-device/mac-os)
 
 If your offboarding is still unsuccessful despite submitting the correct Intune Device ID, please raise a [support request](https://go.gov.sg/seed-techpass-support).
 
