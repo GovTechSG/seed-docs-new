@@ -34,14 +34,14 @@ Before proceeding with the onboarding process, vendors must meet the following p
    
   2. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
   3. Within the next two hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
-  4. If you do not receive this email after two hours, submit an [incident request](https://go.gov.sg/seed-techpass-support). 
+  4. If you do not receive this email after two hours, raise [support request](https://go.gov.sg/seed-techpass-support). 
 
 </details>
 
 ### Step 2: Verify installation
 
 <details>
-  <summary style="font-size:18px">Verify the  installation of the required profiles.</summary><br>
+  <summary style="font-size:18px">Verify the installation of the required profiles.</summary><br>
 
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.

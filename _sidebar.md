@@ -13,6 +13,7 @@
   - [macOS 11 and 12](/post-onboarding-instructions/mac-os.md)
   - [Windows](/post-onboarding-instructions/windows.md)
   - [GCC 1.0 users](/post-onboarding-instructions/gcc-1-users.md)
+  - [Verify Microsoft Defender is configured](/post-onboarding-instructions/verify-microsoft-defender-is-configured-correctly-for-your-os.md)
 - **Configure using CLI tools**
   - [Configuration of common CLI tools with Cloudflare WARP](/configure-cli-tools/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
   - [How to clone a bitbucket repository over SSH with Cloudflare access](/configure-cli-tools/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access.md)

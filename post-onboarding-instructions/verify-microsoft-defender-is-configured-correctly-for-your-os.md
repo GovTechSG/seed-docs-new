@@ -1,4 +1,4 @@
-### Ensure Microsoft Defender is configured correctly for your OS
+### Verify Microsoft Defender is configured
 
 <br>
 <details>
@@ -22,7 +22,7 @@
 
     - If your organisation id corresponds to WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and you can ignore the rest of this section.
 
-    - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package to unenrol your device. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.
+    - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package to unenrol your device. See the [offboarding FAQ](offboard-device/seed-offboarding-faq.md) to know how to unenrol your device from Defender using the Hive offboarding package.
     
     - If your device is enrolled with a different MDM, contact your organisation IT support to unenrol your device from it.
 
@@ -37,11 +37,11 @@ At any time, users can Sign in to Company Portal app, click the three dots and c
   <summary style="font-size:18px">Windows</summary>
 
 1. Go to the **Start** menu and enter **Powershell**.
-2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
+2. Right-click on the search result for **PowerShell** and select **Run as Administrator**.
 
 ![open powershell](/images/offboarding-windows/run_powershell.png)
 
-3. On **Powershell**, run the following command.
+3. On **Powershell**, run the following command:
 
 ```
 $reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
@@ -66,7 +66,7 @@ echo $OrgID
 
   - If your organisation id corresponds to WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and you can ignore the rest of this section.
 
-  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package to unenrol your device. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.
+  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package to unenrol your device. See the [offboarding FAQ](offboard-device/seed-offboarding-faq.md) to know how to unenrol your device from Defender using the Hive offboarding package.
     
   - If your device is enrolled with a different MDM, contact your organisation IT support to unenrol your device from it.
 
