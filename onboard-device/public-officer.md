@@ -11,7 +11,7 @@ Before proceeding with the SEED (Secure Engineering Environment for Developers) 
 
 ## macOS
 
-?> <br>- During the process, you may be prompted to restart your device and reset your device's password.<br>- Ensure that you have your recovery keys accessible in case you encounter any issues during the password reset or device login.
+During the process, you may encounter prompts to restart your device and reset your device's password. It is important to have your recovery keys ready in case you encounter any issues during the password reset or device login.
 
 
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
@@ -85,7 +85,7 @@ echo "$actual_id"
 
 6. Click **Onboard device to SEED** and follow the on-screen instructions to submit your Intune Device ID.
 
-  <img src="./images/enter-intune-device-id.png">
+<img src="./images/enter-intune-device-id.png">
 
   You will receive the following confirmation message:
 
@@ -162,7 +162,7 @@ echo "$actual_id"
  ## Windows
 
 
-?> <br>- Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
+Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/PAyKoRZ7WSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
