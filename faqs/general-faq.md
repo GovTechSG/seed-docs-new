@@ -90,5 +90,15 @@ For more information, refer to [device clean-up policy](device-clean-up-policy).
 No, you will not receive any notification for this.
 
 </details>
-     
 
+<details>
+  <summary>Do I need to change my SEED onboarding password after a year, and what are the password requirements for it?</summary>
+  
+  Yes, you are required to change your SEED onboarding password after a year. The password requirements for SEED onboarding are as follows:
+
+- It should contain at least 12 characters.
+- It should not be the same as the previous three passwords.
+- The same character cannot be used consecutively.
+- It cannot have three sequential characters.
+- It should contain at least one number and one alphabetic character.
+</details>

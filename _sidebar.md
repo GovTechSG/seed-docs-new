@@ -1,43 +1,42 @@
-- **Introduction**
+- Introduction
   - [Home](README.md)
   - [SEED overview](overview)
-- **What's new**
+- What's new
   - [Release notes](release-notes)
   - [Announcements](announcements)
-- **Onboard to SEED**  
+- Onboard to SEED
   - [Prerequisites](prerequisites-for-onboarding)
   - [Identify onboarding persona](/onboard-device/identify-onboarding-persona.md)
   - [Onboard as a public officer](onboard-device/public-officer)
   - [Onboard as a vendor](onboard-device/vendor)
-- **Post onboarding steps**    
+- Post onboarding steps  
   - [macOS 13](/post-onboarding-instructions/mac-os-13.md)
   - [macOS 11 and 12](/post-onboarding-instructions/mac-os.md)
   - [Windows](/post-onboarding-instructions/windows.md)
   - [GCC 1.0 users](/post-onboarding-instructions/gcc-1-users.md)
   - [Verify Microsoft Defender is configured](/post-onboarding-instructions/verify-microsoft-defender-is-configured-correctly-for-your-os.md)
-- **Configure using CLI tools**
+- Configure using CLI tools
   - [Configuration of common CLI tools with Cloudflare WARP](/configure-cli-tools/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
   - [How to clone a bitbucket repository over SSH with Cloudflare access](/configure-cli-tools/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access.md)
   - [How to clone a GitLab repository over SSH with Cloudlfare access](/configure-cli-tools/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access.md)
   - [How to generate and upload diagnostic files to incident support request](/configure-cli-tools/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md)
-- **Monitor using SEED Dashboard**
+- Monitor using SEED Dashboard
   - [SEED Dashboard overview](/seed-dashboard/seed-overview.md)
   - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
-  - [FAQ](/seed-dashboard/seed-dashboard-faq.md)
-- **Offboard from SEED**
+- Offboard from SEED
   - [macOS](/offboard-device/mac-os.md)
   - [Windows](/offboard-device/windows.md)
   - [Device clean up policy](/offboard-device/device-clean-up-policy.md)
-- **Troubleshooting**
+- FAQ
   - [General FAQ](/faqs/general-faq.md)
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
   - [Offboarding FAQ](/faqs/seed-offboarding-faq.md)
-  - [Troubleshooting](/faqs/troubleshooting.md)
-- **Support**
+- Support
   - [Raise a support request](raise-an-incident-support-request)
+  -  [Troubleshooting](/faqs/troubleshooting.md)
   - [View SEED service status](seed-status)
   - [Terms and policies](additional-resources/terms-and-policies.md)
-- **Additional resources**  
+- Additional resources 
   - [Best practices](/additional-resources/best-practices.md)
   - [Glossary](additional-resources/glossary)
   - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)

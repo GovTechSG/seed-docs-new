@@ -136,19 +136,16 @@ Before raising a support request, confirm the following:
 </details>
 
 <details>
-  <summary>What are the password requirements for SEED onboarding?</summary>
-  The password requirements for SEED onboarding are as follows:
+  <summary>How can I reset my password on macOS?</summary>
+If you encounter password reset issues on macOS, it may be due to new password requirements. Before you proceed to reset your macOS password, please ensure that the new password meets the following requirements:
 
 - It should contain at least 12 characters.
 - It should not be the same as the previous three passwords.
 - The same character cannot be used consecutively.
 - It cannot have three sequential characters.
 - It should contain at least one number and one alphabetic character.
-</details>
 
-<details>
-  <summary>How can I reset my password on macOS?</summary>
-If you encounter password reset issues on macOS, it may be due to new password requirements. Here are three options for resetting your password:
+Now, here are three options for resetting your macOS password:
 
 <details>
   <summary>Reset password using Apple ID</summary>
