@@ -1,4 +1,4 @@
-- **Getting started**
+- **Introduction**
   - [Home](README.md)
   - [SEED overview](overview)
 - **What's new**
