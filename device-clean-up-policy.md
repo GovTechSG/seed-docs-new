@@ -17,7 +17,7 @@ The primary objective of this policy is to remove inactive device records from t
 
 If your TechPass ID belongs to the TechPass AAD and you have not logged into your GMD (the Internet Device onboarded to SEED) for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
 
-It is essential to note that when your device records are "soft deleted," it does not wipe or retire the device. Instead, the device record is temporarily removed from Intune.
+It is essential to note that when your device records are soft deleted, it does not wipe or retire the device. Instead, the device record is temporarily removed from Intune.
 
 As a result, SEED administrators will not be able to access details such as the device's health status, and they can no longer manage it from the SEED Dashboard.
 

@@ -1,5 +1,5 @@
 # Glossary
-
+This document serves as a glossary guide designed to assist you in navigating our documentation. We have compiled a list of common terms and their definitions, aiming to provide you with clear and concise explanations for the terminology frequently encountered within our documentation.
 
 ### GFE
 

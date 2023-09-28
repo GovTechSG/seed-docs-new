@@ -12,11 +12,10 @@ This guide provides instructions on how to configure the following commonly used
 - [Golang](#golang)
 
 > **Note**:
->- If you encounter any issues while using CLI tools and applications to access SGTS services, please create a support request.  For more information, refer to [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request).
+>- If you encounter any issues while using CLI tools and applications to access SGTS services, please raise a [support request](https://go.gov.sg/seed-techpass-support).
 >- For all other issues unrelated to SGTS products, contact [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us)
 
 ## Node.js and NPM
-
 
 Node.js and NPM use a hardcoded certificate store and require additional configuration to trust the Cloudflare Certificate.
 
@@ -30,8 +29,8 @@ curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developer
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.zshrc"
 source "${HOME}/.zshrc"
 ```
-**Linux users**
 
+**Linux users**
 
 If you are using Linux, Bash is your default terminal. Execute the following commands:
 
@@ -45,12 +44,11 @@ source "${HOME}/.bashrc"
 
 ## Docker
 
-Docker for Desktop on macOS and Windows uses virtual machines to host the Docker engine. The Docker engine must be configured to trust the Cloudflare Certificate.
+Docker for Desktop on macOS and Windows relies on virtual machines to host the Docker engine. To ensure compatibility with the Cloudflare Certificate, it's necessary to configure the Docker engine accordingly.
 
-Following are the instructions for the smooth operation of the Docker engine behind the Cloudflare WARP, but note this is **not recommended** for building a production-ready Docker images.
+These instructions are provided to ensure the Docker engine functions seamlessly alongside Cloudflare WARP. However, it's important to note that this approach is not the recommended method for building production-ready Docker images.
 
-> **Tip**:
-> Consider building your Docker images using [SHIP-HATS CI/CD]( https://www.ship.gov.sg/).
+For a more suitable solution, explore [SHIP-HATS CI/CD](https://www.ship.gov.sg/) for Docker image creation.
 
 - [Pull Docker images from a Docker image repository with Cloudflare Warp](#pull-docker-images-from-a-docker-image-repository-with-cloudflare-warp)
 - [Connect operating system in your Docker container to Internet with Cloudflare Warp](#connect-operating-system-in-your-docker-container-to-internet-with-cloudflare-warp)

@@ -1,14 +1,22 @@
 # Onboarding FAQ
 
 <details>
-  <summary>What to do if profile installation fails during management profile installation?</summary>
+  <summary>How can I confirm the successful onboarding of my Internet Device to SEED?</summary>
+
+After completing the onboarding process for your device to SEED, you should expect to receive a confirmation email indicating successful onboarding within two hours. This email will be sent to your organizational email address.
+
+If you have not received the confirmation email after this two-hour period, raise a [support request](https://go.gov.sg/seed-techpass-support) for assistance.
+</details>
+
+<details>
+  <summary>What should I do if profile installation fails during management profile installation?</summary>
 
 1. Ensure you have received an email confirming that the required SEED onboarding license has been assigned to you. If you have received this confirmation, proceed to step 2.
 2. Navigate to the **Apple** menu > **System Preferences** > **Profiles**.
 3. If you already have an existing **Management Profile**, select it and remove it by clicking the minus icon at the lower-left corner.
 4. If you encounter difficulties removing the **Management Profile**, uninstall **Company Portal**.
 5. Reinstall [Company Portal](https://go.microsoft.com/fwlink/?linkid=853070).
-6. [Onboard your device to SEED](onboard-device/onboard-device-to-seed).
+6. [Onboard your device to SEED](onboard-device/identify-onboarding-persona).
 
 </details>
 <details>
@@ -35,12 +43,12 @@
 
   One possible reason for this error is that your device may have been previously onboarded to Microsoft Intune by a different user and was not properly offboarded during the pre-onboarding steps.
 
-  To confirm this, please [create a support request][raise-support-request] and provide your device's serial number. The SEED team will investigate whether your device was previously enrolled in Microsoft Intune under a different user.
+  To confirm this, please [raise a support request][raise-support-request] and provide your device's serial number. The SEED team will investigate whether your device was previously enrolled in Microsoft Intune under a different user.
 
   If this is confirmed, you can choose one of the following options to offboard your device from Microsoft Intune and then retry the SEED onboarding process:
 
-  - For Windows users, refer to the [SEED offboarding steps][seed-offboarding-steps].
-  - For macOS users, go to **System Preferences** and locate the old Management Profile. Follow the [SEED offboarding steps][seed-offboarding-steps].
+  - For Windows users, refer to the [SEED offboarding steps for Windows](offboard-device/windows).
+  - For macOS users, go to **System Preferences** and locate the old Management Profile. Follow the [SEED offboarding steps for macOS](offboard-device/mac-os).
 </details>
   
 <details>

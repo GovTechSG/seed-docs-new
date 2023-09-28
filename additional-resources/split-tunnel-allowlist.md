@@ -26,13 +26,13 @@ To evaluate a split tunnel allowlisting request, we need the following from the 
 > **Important**: To reduce or prevent harmful security attacks, we strongly encourage agencies to avoid requesting for split tunnel allowlisting.
 
 
-- [Create a support request to request](https://go.gov.sg/seed-techpass-support) to add the required VPN to the allowlist.
+- [Raise a support request](https://go.gov.sg/seed-techpass-support) to add the required VPN to the allowlist.
 
 - We will assess your split tunnel allowlisting requests on a case-by-case basis to ensure that the request does not compromise the security of GCC 2.0 or any SGTS applications.
 
 - As part of our security review process, we will periodically review the allowed split tunnel entries to check if they are still necessary.
 
-- To know more about, how the WARP client handles your DNS requests, see [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/configure-warp/route-traffic/#how-the-warp-client-handles-dns-requests).
+- To know more about, how the WARP client handles your DNS requests, see [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/configure-warp/route-traffic/#how-the-warp-client-handles-dns-requests).
 
 > **Note**:<br>
 >- We will review the allowed split tunnel entries by **October 2023** to decide whether to retain the allowlisting or not.

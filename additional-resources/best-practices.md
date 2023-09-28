@@ -11,7 +11,7 @@ SEED relies on SEED monitoring agents to ensure that your device remains up to d
 
 >**Note**
 >
->- For more information on the supported OS versions, see [SEED Prerequisites](prerequisites-for-onboarding).
+>- For more information on the supported OS versions, see [Prerequisites](prerequisites-for-onboarding).
 >- To enable software update notifications on your MacBook, see [Apple documentation](https://support.apple.com/en-sg/guide/mac-help/mchlpx1065/mac).
 
 ### Maintain a malware-free device

@@ -7,7 +7,7 @@ This guide offers step-by-step instructions for cloning Git repositories via SSH
 
 **Prerequisites**
 
-- If you are using an Internet Device, [onboard the device to SEED](onboard-device/onboard-device-to-seed).
+- If you are using an Internet Device, [onboard the device to SEED](onboard-device/identify-onboarding-persona).
 - [Verify if you have an existing SSH key pair](https://confluence.atlassian.com/bitbucketserver0717/creating-ssh-keys-1087535541.html#CreatingSSHkeys-1.CheckforexistingSSHkeys). If it is available, [add the SSH key in Bitbucket](https://bitbucket.ship.gov.sg/plugins/servlet/ssh/account/keys).
 - If you do not have an SSH key pair, [generate SSH key pair](https://confluence.atlassian.com/bitbucketserver0717/creating-ssh-keys-1087535541.html#) and then add it in Bitbucket.
 - You should be familiar with setting up and using SSH in conjunction with Git.

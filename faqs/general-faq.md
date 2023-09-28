@@ -2,7 +2,7 @@
 
 <details><summary>What data can I store on a GMD?</summary>
 
-  GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS securely. Do not store production or live data on GMDs.
+GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS securely. Do not store production or live data on GMDs.
 
 </details>
 
@@ -14,6 +14,7 @@
 4. Attach manager approvals for necessary actions to prevent data breaches.
 
 </details>
+
 <details><summary>What happens when the security of a GMD is compromised?</summary>
 
   When SEED detects a compromised device, it contacts the owner for disconnection. After obtaining owner and manager approvals, SEED performs a remote wipe.
@@ -71,8 +72,13 @@ Receiving this email again indicates that services ensuring SEED compliance may 
 
 <details><summary>Do I need to re-onboard my device to SEED after returning from a long leave?</summary>
 
+If you belong to the TechPass AAD and your GMD (the Internet Device onboarded to SEED) has not been logged into for 90 consecutive days, the GMD becomes inactive, and its records are softly removed from the Intune portal.
 
-Refer to [MDM certificate and device clean-up policy](device-clean-up-policy).
+It's important to understand that when your device records are softly removed, it does not perform a device wipe or retirement. Instead, the device record is temporarily taken out of Intune.
+
+Consequently, SEED administrators will no longer have access to details such as the device's health status, and they won't be able to manage it from the SEED Dashboard.
+
+For more information, refer to [device clean-up policy](device-clean-up-policy).
 
 </details>
      
