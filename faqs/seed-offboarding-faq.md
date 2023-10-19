@@ -23,7 +23,7 @@ Raise a [support request](https://go.gov.sg/seed-techpass-support) and request t
 
 This error indicates that you are not a SEED user or your device was not properly enrolled in SEED.
 
-If you had properly onboarded your device to SEED earlier but still get this error, please raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
+If you had properly onboarded your device to SEED earlier but still get this error, please r[aise a service request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
 </details>
 
@@ -38,14 +38,14 @@ For detailed steps on offboarding your device, please refer to the appropriate g
 
 Download the offboarding package from the provided page and complete the offboarding steps.
 
-If you continue to experience the same or any other error, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
+If you continue to experience the same or any other error, [raise a service request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
 </details>
 
 <details>
 <summary>What should I do if I encounter an error on my macOS device while running the offboarding package to remove SEED components like Cloudflare WARP, Microsoft Defender, or Tanium Client?</summary>
 
-Try running the script again. If you still experience any error, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
+Try running the script again. If you still experience any error, [raise a service request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
 </details>
 
@@ -56,7 +56,7 @@ You may encounter this error if we are unable to auto-retrieve your Intune Devic
 
 1. To get your Intune Device ID, either:
     - Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and retrieve the Intune Device ID from your account profile.
-    - If you cannot access the TechPass portal, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain your Intune Device ID.
+    - If you cannot access the TechPass portal, [raise a service request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain your Intune Device ID.
 
 2. Once you have your Intune Device ID, proceed with **Phase B: Submit Intune Device ID** to remove the device record.
 
@@ -71,7 +71,7 @@ This can happen if you submitted an incorrect Intune Device ID.
 
 1. To get your correct Intune Device ID, either:
     - Retrieve the Intune Device ID from your account profile on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-    - If you cannot access the TechPass portal, raise a [support request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain the correct Intune Device ID.
+    - If you cannot access the TechPass portal, [raise a service request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to obtain the correct Intune Device ID.
 
 2. Complete the offboarding steps for your device.
 
@@ -79,14 +79,14 @@ For detailed steps on offboarding your device, please refer to the appropriate g
 - [Windows offboarding steps](offboard-device/windows)
 - [macOS ofboarding steps](offfboard-device/mac-os)
 
-If your offboarding is still unsuccessful despite submitting the correct Intune Device ID, please raise a [support request](https://go.gov.sg/seed-techpass-support).
+If your offboarding is still unsuccessful despite submitting the correct Intune Device ID, please [raise a service request](https://go.gov.sg/seed-techpass-support).
 
 </details>
 
 <details>
 <summary>What should I do if I did not receive the successfully offboarded email after submitting my Intune Device ID</summary>
 
-It may take up to 30 minutes for the SEED team to send the successfully offboarded email to you. If you still have not received this email, please raise a [support request](https://go.gov.sg/seed-techpass-support).
+It may take up to 30 minutes for the SEED team to send the successfully offboarded email to you. If you still have not received this email, please [raise a service request](https://go.gov.sg/seed-techpass-support).
 
 If the TechPass and SEED support team completes the offboarding for you, you may not receive this email from the SEED team. However, the TechPass and SEED support team can confirm if you have successfully offboarded your device from SEED.
 

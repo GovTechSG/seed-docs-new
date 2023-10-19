@@ -1,4 +1,4 @@
-# Post onboarding instructions for macOS 11 and 12
+# Post onboarding instructions for macOS 12
 
   After onboarding your Internet Device to SEED, follow these instructions: 
 
@@ -29,7 +29,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
     - Microsoft Defender
     - Microsoft Defender ATP Security Extension 
 
-![fda-enabled](../images/onboarding-for-macos/all-apps-fda-enabled.png ':size=75%')
+![fda-enabled](../images/onboarding-for-macos/all-apps-fda-enabled.png)
 
 ?> **Note**<br>If a SEED component is missing, see [Common onboarding issues for macOS users](faqs/common-onboarding-issues) to resolve it.
 

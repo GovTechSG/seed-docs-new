@@ -6,7 +6,7 @@
 
 Check if you are connected to any VPN. If you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration. 
 
-**To resolve this** 
+**To resolve this**:
 
 1. Disconnect from your VPN.
 2. Make sure only Cloudflare WARP is connected.
@@ -17,7 +17,7 @@ Check if you are connected to any VPN. If you are still connected to your VPN, y
 <details>
 <summary>Unable to browse the internet when Cloudflare WARP automatically reconnected.</summary>
 
-If you disconnect Cloudflare WARP on your device, it  automatically gets reconnected after three hours. At that time, if you are connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
+If you disconnect Cloudflare WARP on your device, it will automatically reconnect after three hours. At that time, if you are connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
 
 **To resolve this**:
 
@@ -38,14 +38,15 @@ In addition, make sure the VPN configuration does not route all the traffic and 
 
 - DNS resolution for the website may fail because of WARP and Gateway.
 
-**To resolve gateway issues for trusted sites**
+**To resolve gateway issues for trusted sites**:
 
 1. Turn off WARP.
 2. Ensure Microsoft Defender is running to protect your device against malware.
 
-?> Note WARP connection will automatically reconnect after three hours.
+> **Note**:
+> - WARP connection will automatically reconnect after three hours.
 
-**To resolve DNS error for your device**
+**To resolve DNS error for your device**:
 
 <details><summary>macOS</summary>
 
@@ -55,7 +56,7 @@ In addition, make sure the VPN configuration does not route all the traffic and 
 
 2. Select **Wi-Fi** from the left pane and click **Advanced**.
 
-?> If the lock icon at the lower left appears locked, click it to unlock the preference pane.
+?> If the lock icon at the lower left appears locked, click the icon to unlock the preference pane.
 
 <kbd>![wifi](../images/resolve-dns-error-macos/wifi.png)</kbd>
 
@@ -159,15 +160,15 @@ If you are unable to access the GCC 2.0 CMP or any SGTS service using your GMD, 
 
 2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend not to turn on WARP and the VPN at the same time.
 
-If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
+If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and raise a [service request](https://go.gov.sg/seed-techpass-support).
 
 </details>
 
 
 <details>
-<summary>I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS services using Cloudflare WARP.</summary>
+<summary>I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS products using Cloudflare WARP.</summary>
 
-This is a known issue with Cloudflare WARP. If you are unable to access any SGTS service, do the following:
+This is a known issue with Cloudflare WARP. If you are unable to access any SGTS products, do the following:
 
 1. Confirm the following:
     - If you have received the successfully onboarded email from DEEP.
@@ -176,12 +177,12 @@ This is a known issue with Cloudflare WARP. If you are unable to access any SGTS
     - If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS devices.
     - If your device operating system is updated to the latest version.
     - If Defender is up-to-date and in the running state.
-    - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
+    - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS product.
     - If you have restarted your machine.
 
-2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend not to turn on WARP and the VPN at the same time.
+2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend to not enable WARP and the VPN at the same time.
 
-If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
+If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and raise a [service request](https://go.gov.sg/seed-techpass-support).
 
 </details>
 
@@ -221,7 +222,7 @@ To check and synchronise your device time with the internet time server:
   <details>
   <summary>Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
 
-  We strongly encourage agencies to avoid requesting for split tunnel allowlisting to reduce or prevent harmful security attacks. However, if you still intend to allow a VPN IP, [create a support request to request](https://go.gov.sg/seed-techpass-support). Our team may need additional information to evaluate this request.
+  We strongly encourage agencies to avoid requesting for split tunnel allowlisting to reduce or prevent harmful security attacks. However, if you still intend to allow a VPN IP, Raise a [service request](https://go.gov.sg/seed-techpass-support). Our team may need additional information to evaluate this request.
 
   For more information, refer to [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
 
@@ -249,7 +250,6 @@ To check and synchronise your device time with the internet time server:
 
 
 
-[raise-support-request]: raise-an-incident-support-request.md
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
 [config-cli-tools-with-warp]: faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp
 [install-cloudflare-cert-applications]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#adding-to-applications

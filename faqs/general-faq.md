@@ -1,6 +1,6 @@
 # General FAQ
 
-<details><summary>What data can I store on a GMD?</summary>
+<details><summary>What data can I store on a Government Managed Device (GMD)?</summary>
 
 GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS securely. Do not store production or live data on GMDs.
 
@@ -10,11 +10,11 @@ GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS 
 
 Installing unlicensed software on your GMD is strictly prohibited. GMDs are government-managed, and this policy ensures security and compliance. Unauthorised software compromises security and violates regulations. 
 
-If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of Use](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-of-use.pdf) for details.
+If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of use](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-of-use.pdf) for details.
 
 </details>
 
-<details><summary>Can I bring and use my GMD (Government Managed Device) overseas?</summary>
+<details><summary>Can I bring and use my Government Managed Device (GMD) overseas?</summary>
 
 Users should assess the risk and seek approval from their Reporting Officer (RO) before doing so.
 
@@ -23,7 +23,7 @@ Users should assess the risk and seek approval from their Reporting Officer (RO)
 <details><summary>I have lost my Government Managed Device (GMD). What should I do?</summary>
 
 1. Notify your manager and operations manager to approve data deletion on the lost device.
-2. Raise a [service request](https://go.gov.sg/seed-techpass-support) to notify the SEED team about the lost device.
+2. [Raise a service request](https://go.gov.sg/seed-techpass-support) to notify the SEED team about the lost device.
 3. Mention any sensitive data in the request to prioritise remote wiping.
 4. Attach manager approvals for necessary actions to prevent data breaches.
 
@@ -39,12 +39,12 @@ Users should assess the risk and seek approval from their Reporting Officer (RO)
 </details>
 <details><summary>What happens when a remote wipe is performed on a Government Managed Device (GMD)?</summary>
 
-  Remote wipe erases all data on the device, performed only for theft, loss, or security compromise. For more information, refer to the [Terms and Policies](terms-and-policies).
+  Remote wipe erases all data on the device, performed only for theft, loss, or security compromise. For more information, refer to the [Terms and policies](terms-and-policies).
 
 </details>
 <details><summary>Is remote wipe done only on devices that belong to public sector agencies?</summary>
 
-  No, remote wipe applies to any lost or compromised GMD to prevent data breaches. For more information, refer to the [Terms and Policies](terms-and-policies).
+  No, remote wipe applies to any lost or compromised GMD to prevent data breaches. For more information, refer to the [Terms and policies](terms-and-policies).
 
 </details>
 
@@ -92,7 +92,7 @@ This suggests SEED detected device configuration issues. For example, an unhealt
 
 - Offboard your device if access is no longer needed.
 
-- Raise a [service request](https://go.gov.sg/seed-techpass-support) to restore access to SEED-protected resources. Specify that your SEED access was revoked due to device misconfiguration, allowing us to process the request accordingly.
+- [Raise a service request](https://go.gov.sg/seed-techpass-support) to restore access to SEED-protected resources. Specify that your SEED access was revoked due to device misconfiguration, allowing us to process the request accordingly.
 
 </details>
 
@@ -104,7 +104,7 @@ Receiving this email again indicates that services ensuring SEED compliance may 
 
 <details><summary>Do I need to re-onboard my device to SEED after returning from a long leave?</summary>
 
-If you belong to the TechPass AAD and your GMD (the Internet Device onboarded to SEED) has not been logged into for 90 consecutive days, the GMD becomes inactive, and its records are softly removed from the Intune portal.
+If you belong to the TechPass AAD and your GMD has not been logged into for 90 consecutive days, the GMD becomes inactive, and its' records are softly removed from the Intune portal.
 
 It is important to understand that when your device records are softly removed, it does not perform a device wipe or retirement. Instead, the device record is temporarily taken out of Intune.
 
@@ -113,11 +113,8 @@ Consequently, SEED administrators will no longer have access to details such as 
 For more information, refer to [device clean-up policy](device-clean-up-policy).
 
 </details>
-     
-
 
 <details><summary>Will I receive any notification of MDM certificate expiration?</summary>
-
 
 No, you will not receive any notification for this.
 

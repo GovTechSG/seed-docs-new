@@ -46,17 +46,17 @@ After onboarding your macOS Internet Device to SEED, you need to activate Cloudf
 
 1. Open **Cloudflare WARP** client from the menu bar.
 
-![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png) 
+  ![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png) 
   
 You will see the information page, followed by the privacy policy.
 
 2. Click **Next**, **Accept** to agree to Cloudflare’s privacy policy.
 
-![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)
+  ![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)
 
 3. When prompted to sign in, select **Azure AD – TechPass Prod**.
 
-![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
+  ![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
 
 If you encounter an error stating that your user account is not found in the respective tenant, follow these instructions:
 
@@ -68,13 +68,13 @@ If you encounter an error stating that your user account is not found in the res
 
 4. Sign in using your TechPass credentials.
 
-![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
+  ![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
 
 5. After successfully signing in, click **Open Cloudflare WARP app** to establish your WARP connection.
 
 Once connected, you should see WARP Zero Trust in the connected state.
   
-![cf-warp-connected](../images/cloud-flare-connected.png ':size=50%')
+  ![cf-warp-connected](../images/cloud-flare-connected.png ':size=50%')
 
 6. Open Cloudflare WARP **Settings**, and ensure **Gateway with WARP** is selected.
 

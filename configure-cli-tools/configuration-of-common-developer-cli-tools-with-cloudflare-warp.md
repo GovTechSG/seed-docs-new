@@ -12,8 +12,8 @@ This guide provides instructions on how to configure the following commonly used
 - [Golang](#golang)
 
 > **Note**:
->- If you encounter any issues while using CLI tools and applications to access SGTS services, please raise a [support request](https://go.gov.sg/seed-techpass-support).
->- For all other issues unrelated to SGTS products, contact [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us)
+>- If you encounter any issues while using CLI tools and applications to access SGTS products, please raise a [service request](https://go.gov.sg/seed-techpass-support).
+>- For all other issues unrelated to SGTS products, contact [Cloudflare community support forums](https://support.cloudflare.com/hc/en-us)
 
 ## Node.js and NPM
 

@@ -1,6 +1,6 @@
-# Raise a support request
+# Raise a service request
 
-Create an incident support request if you experience:
+Raise a service request if you experience:
 
 - uninformed service interruption or degraded service
 

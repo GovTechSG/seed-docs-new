@@ -5,7 +5,7 @@
 
 After completing the onboarding process for your device to SEED, you should expect to receive a confirmation email indicating successful onboarding within two hours. This email will be sent to your organizational email address.
 
-If you have not received the confirmation email after this two-hour period, raise a [support request](https://go.gov.sg/seed-techpass-support) for assistance.
+If you have not received the confirmation email after this two-hour period, [raise a service request](https://go.gov.sg/seed-techpass-support) for assistance.
 </details>
 
 <details>
@@ -43,7 +43,7 @@ If you have not received the confirmation email after this two-hour period, rais
 
   One possible reason for this error is that your device may have been previously onboarded to Microsoft Intune by a different user and was not properly offboarded during the pre-onboarding steps.
 
-  To confirm this, please [raise a support request][raise-support-request] and provide your device's serial number. The SEED team will investigate whether your device was previously enrolled in Microsoft Intune under a different user.
+  To confirm this, please [raise a service request][raise-support-request] and provide your device's serial number. The SEED team will investigate whether your device was previously enrolled in Microsoft Intune under a different user.
 
   If this is confirmed, you can choose one of the following options to offboard your device from Microsoft Intune and then retry the SEED onboarding process:
 
@@ -77,7 +77,7 @@ If you have not received the confirmation email after this two-hour period, rais
 </details>
 
 <details>
-  <summary>While enabling Full Disk Access (FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+  <summary>While enabling Full Disk Access (FDA), I cannot find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
 
   If **Microsoft Intune Agent** and **Microsoft Defender for Endpoint** are not visible while enabling Full Disk Access (FDA), follow these steps:
 
@@ -94,7 +94,7 @@ If you have not received the confirmation email after this two-hour period, rais
 <details>
   <summary>While enabling Full Disk Access (FDA), I cannot find <b>Microsoft Defender Endpoint Security Extension</b>. Can I proceed with onboarding?</summary>
 
-  Yes, you can proceed with your SEED onboarding, and **Microsoft Defender Endpoint Security Extension** should become available within four hours. If it does not become available after four hours, please raise a [support request](raise-an-incident-support-request) as it is necessary to ensure the completeness of your onboarding.
+  Yes, you can proceed with your SEED onboarding, and **Microsoft Defender Endpoint Security Extension** should become available within four hours. If it does not become available after four hours, please [raise a service request](raise-an-incident-support-request) as it is necessary to ensure the completeness of your onboarding.
 
 </details> 
 
@@ -118,11 +118,11 @@ Possible reasons:
 - Microsoft Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 - Tanium and Cloudflare were not installed while onboarding to SEED.
 
-Before raising a support request, confirm the following:
+Before raising a service request, confirm the following:
 
 - [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
-- Check if Tanium and Cloudflare are installed. These applications should be automatically installed during device enrolment with SEED. If they are not installed, [raise a support request][raise-support-request].
+- Check if Tanium and Cloudflare are installed. These applications should be automatically installed during device enrolment with SEED. If they are not installed, [raise a service request][raise-support-request].
 
 </details>
 
@@ -150,7 +150,7 @@ Now, here are three options for resetting your macOS password:
 <details>
   <summary>Reset password using Apple ID</summary>
 
-Refer to [Reset your Mac login password using Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
+Refer to [Reset your macOS login password using Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
 </details>
 
 <details>
@@ -193,7 +193,7 @@ If you do not have an Apple ID or a recovery key, you can reset your password in
 > 1. If you still cannot reset your password, repeat steps 1-6.
 > 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
 > 3. Disable FileVault on the **Macintosh HD** volume.
-> 4. Restart your device and, on the login screen, select your user account and enter the new password.
+> 4. Restart your device. On the login screen, select your user account and enter the new password.
 
 #### **Intel chip**
 
@@ -206,7 +206,7 @@ If you do not have an Apple ID or a recovery key, you can reset your password in
 7. Enter the old password and your new password in the respective fields.
 8. Type the new password again to verify and provide a password hint.
 9. Click **Next**.
-10. Restart your device and, on the login screen, select your user account and enter the new password.
+10. Restart your device. On the login screen, select your user account and enter the new password.
 
 > **Note**:
 
@@ -230,11 +230,11 @@ As a prerequisite, ensure the device you are onboarding to SEED has a stable int
 
 | Reason for failed onboarding | Action required |
 | ---|---|
-| Unexpected Error| [Raise a support request](https://go.gov.sg/seed-techpass-support). |
-| Software Misconfiguration Error | [Raise a support request](https://go.gov.sg/seed-techpass-support).|
-| Endpoint Error | <br>1. Ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.<br>2. Go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a support request](https://go.gov.sg/seed-techpass-support). |
-| Software Installation Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a support request](https://go.gov.sg/seed-techpass-support).|
-| Internal Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a support request](https://go.gov.sg/seed-techpass-support).|
+| Unexpected Error| [Raise a service request](https://go.gov.sg/seed-techpass-support). |
+| Software Misconfiguration Error | [Raise a service request](https://go.gov.sg/seed-techpass-support).|
+| Endpoint Error | <br>1. Ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.<br>2. Go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a service request](https://go.gov.sg/seed-techpass-support). |
+| Software Installation Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a service request](https://go.gov.sg/seed-techpass-support).|
+| Internal Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a service request](https://go.gov.sg/seed-techpass-support).|
 | Device that is trying to onboard is a DWP device. Please onboard with a non-DWP device.| You cannot onboard a DWP device to SEED. You can onboard only an Internet Device to SEED. |
 
 </details>

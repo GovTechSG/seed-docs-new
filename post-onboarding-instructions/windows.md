@@ -4,19 +4,19 @@ After onboarding your Windows Internet Device to SEED, you need to enable Cloudf
 
 ## Turn on Cloudflare WARP for Windows
 
-!>  Ensure that your device is not connected to any other VPN, as it might conflict with Cloudflare WARP.
+!> Ensure that your device is not connected to any other VPN, as it might conflict with Cloudflare WARP.
 
 **Activation steps**:
 
 1. Open the Cloudflare WARP client from the Windows Taskbar. You will see the information page, followed by the privacy policy.
 
-2. Click **Next**, **Accept** to agree to the Cloudflare’s privacy policy.
+2. Click **Next**,then, **Accept** to agree to the Cloudflare’s privacy policy.
 
-  ![cloudflare-for-teams](../images/cloudflare-warp-windows/cloudflare-for-teams.png ':size=400')
+  ![cloudflare-for-teams](../images/cloudflare-warp-windows/cloudflare-for-teams.png ':size=50%')
 
 3. When prompted to sign in, choose **Azure AD – TechPass Prod**.
 
-  ![azure-ad-techpass-prod](../images/cloudflare-warp-windows/azure-ad-techpass-prod.png ':size=400')
+  ![azure-ad-techpass-prod](../images/cloudflare-warp-windows/azure-ad-techpass-prod.png ':size=50%')
 
 If you encounter an error stating that your user account is not found in the respective tenant, follow these instructions:
 
@@ -33,7 +33,7 @@ If you encounter an error stating that your user account is not found in the res
 
   When the device is connected to WARP, you should see the WARP Zero Trust in the connected state.
   
-  ![after-signed-in](../images/cloudflare-warp-windows/after-signed-in.png ':size=400')
+  ![after-signed-in](../images/cloudflare-warp-windows/after-signed-in.png ':size=50%')
 
 6. Open Cloudflare WARP **Settings**, and ensure **Gateway with WARP** is selected.
 

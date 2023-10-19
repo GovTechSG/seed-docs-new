@@ -65,18 +65,19 @@ Follow the steps below to check for and remove any existing software on your dev
      
       a. If your macOS version is macOS 11 or 12, and you see a page similar to the following, it indicates that you already have an MDM software installed.
 
-  <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
+      ![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)
 
       b. If your macOS version is macOS 13 and you see a similar page, it indicates that you already have MDM software installed.
 
-    ![verify-other-mdm-on-ventura](images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
+      ![verify-other-mdm-on-ventura](images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
      
  3. Choose the appropriate step:
  
     - If you have verified that your Internet Device is not currently managed by any MDM, proceed to step **c.Remove Tanium Client** to check for and remove Tanium Client if it is installed.
 
     - If your Internet Device is managed an MDM software, go to **Settings** on the **Management Profile** to identify the current MDM software.
-  ![verify-other-mdm](images/onboarding-for-macos/management-profile-settings.png)
+
+    ![verify-other-mdm](images/onboarding-for-macos/management-profile-settings.png)
 
 ?><br>- If you see Microsoft Intune in the settings, it indicates that your MDM is **Microsoft Intune**. Proceed to **step b. Unenrol from Microsoft Intune**<br>- For devices managed by other MDM software, please contact your organization's IT administrator to unenrol your device.
 
@@ -89,10 +90,10 @@ Complete the following steps to remove your device from Intune.
 ?> To find if your device is enrolled with Intune, refer to step **a. Verify if your device is already managed by any MDM software**.
 
   1. Sign in to the **Company Portal** app.
-  <kbd>![sign-in-to-company-portal](images/onboarding-for-macos/sign-in-to-company-portal.png)</kbd>
+    ![sign-in-to-company-portal](images/onboarding-for-macos/sign-in-to-company-portal.png)
   2. Go to **Devices** and click the three dots beside the device you want to unenrol.
   3. Choose **Remove**.
-  <kbd>![devices](images/onboarding-for-macos/devices-2.png)</kbd>
+    ![devices](images/onboarding-for-macos/devices-2.png)
   4. When prompted to confirm the removal, select **Remove**.
   5. Click your profile icon and **Sign out** of the **Company Portal**.
 
@@ -187,13 +188,13 @@ Complete the following steps to determine if Defender is your current antivirus 
 4. Log in with your TechPass to download the offboarding package.
 5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-![extract-files](images/macos-extracted-files-for-offboarding.png)
+  ![extract-files](images/macos-extracted-files-for-offboarding.png)
 
 ?> **Note**: The file names vary with the organisation.
 
 6. On **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
-![cd-extracted-folder](images/macos-cd-downloads.png)
+  ![cd-extracted-folder](images/macos-cd-downloads.png)
 
 7. Copy the below and run it in the same **Terminal**.
 
@@ -210,14 +211,14 @@ Complete the following steps to determine if Defender is your current antivirus 
 
 When the following success message appears in **Terminal**, ou will be automatically redirected to a form to submit the Intune Device ID.
 
-![macos-success-message](images/macos-success-message.png)
+  ![macos-success-message](images/macos-success-message.png)
 
 10. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. Refer to [Get Intune Device ID](/offboard-device/mac-os) for assistance. 
 11. Enter your organisational email address in the **Organisational Email Address** field and click **Verify**.
 12. Enter the OTP you receive at this email address.  
 13. Click **Submit**. Once this request is processed successfully, we will send a notification via email.
 
-![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
+  ![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
 
 </details>
 
@@ -270,7 +271,7 @@ Complete the following steps to find if Defender is your current antivirus solut
 1. Go to the **Start** menu and search for **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**.
 
-![open powershell](images/offboarding-windows/run_powershell.png)
+  ![open powershell](images/offboarding-windows/run_powershell.png)
 
 3. On **Powershell**, run the following command:
 
@@ -282,7 +283,7 @@ echo $OrgID
 
 4. Take note of the value displayed for **OrgID**.
 
-![find-org-id](images/offboarding-windows/org_id_win.png)
+  ![find-org-id](images/offboarding-windows/org_id_win.png)
 
 ?> Note: If you do not receive any response, it means you do not have Defender installed on your device. You can skip the steps in this section.
 
@@ -298,7 +299,7 @@ echo $OrgID
 
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-![extract-files](images/offboarding-windows/windows-extracted-files.png)
+  ![extract-files](images/offboarding-windows/windows-extracted-files.png)
 
 ?> **Note**: The file names vary with the organisation.
 
@@ -335,7 +336,7 @@ When you see the following success message on your **Powershell**, you are autom
 13. Enter the OTP you receive at this email address.  
 14. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
+  ![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
 
 </details>
 
@@ -363,7 +364,7 @@ When you see the following success message on your **Powershell**, you are autom
 
 5. When prompted to specify how you would like to unlock your device if you forget your device password,  select **Create a recovery key and do not use my iCloud account**.
 
-<kbd>![create-recovery-key](images/onboarding-for-macos/create-recovery-key-1.png)</kbd>
+  ![create-recovery-key](images/onboarding-for-macos/create-recovery-key-1.png)
 
 6. Save the recovery key on a different device.
 
@@ -372,23 +373,22 @@ When you see the following success message on your **Powershell**, you are autom
 1. Click the **Start** icon on the taskbar and type **Manage BitLocker** in the Windows search bar, and choose to open it. Check if BitLocker is turned on for your OSDisk. A padlock on the drive indicates that BitLocker is turned on ![](images/onboarding-instructions-for-windows/bitlocker-enabled.png).
 2. If BitLocker is not turned on, select **Turn on BitLocker**.
 3. When asked to choose how to unlock your drive at start up, select **Enter a password**.
-
-<kbd>![enter-pwd](images/onboarding-instructions-for-windows/enter-pwd.png ':size=600')</kbd>
+  ![enter-pwd](images/onboarding-instructions-for-windows/enter-pwd.png)
 
 4. To backup the recovery key for your computer, insert a thumb drive or any other form of removable storage device into the USB port of your computer.
 5. When asked how you would like to back up your recovery key, select **Save to a file**, save the file in the inserted removable storage device and click **Next**.
 
 ?> Remove the external storage device and transfer this file to a safe location other than your computer.
 
-<kbd>![save-to-file](images/onboarding-instructions-for-windows/save-to-file.png ':size=600')</kbd>
+  ![save-to-file](images/onboarding-instructions-for-windows/save-to-file.png)
 
 6. When asked how much of your drive to be encrypted, select **Encrypt entire drive(slower but best for PCs and drives already in use)** and click **Next**.
 
-<kbd>![encrypt-entire-drive](images/onboarding-instructions-for-windows/encrypt-entire-drive.png ':size=600')</kbd>
+  ![encrypt-entire-drive](images/onboarding-instructions-for-windows/encrypt-entire-drive.png)
 
 7. When asked which encryption mode to use, select **New encryption mode(best for fixed drives on this device)** and click **Next**.
 
-<kbd>![new-encryption-mode](images/onboarding-instructions-for-windows/new-encryption-mode.png ':size=600')</kbd>
+  ![new-encryption-mode](images/onboarding-instructions-for-windows/new-encryption-mode.png)
 
 8. The device encryption page is displayed. <!--Click **Start encrypting**.-->
 
