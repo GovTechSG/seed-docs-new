@@ -19,7 +19,7 @@ Check if you are connected to any VPN. If you are still connected to your VPN, y
 
 If you disconnect Cloudflare WARP on your device, it  automatically gets reconnected after three hours. At that time, if you are connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
 
-**To resolve this**
+**To resolve this**:
 
 1. Disconnect the device from your WiFi.
 2. Reconnect device to your WiFi to reset the DNS resolver settings or restart your device.

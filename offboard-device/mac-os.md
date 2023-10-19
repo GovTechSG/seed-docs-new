@@ -170,7 +170,7 @@ When you see the following success message on your **Terminal**, you will be aut
 ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
 
-?> **Additional Information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please raise a [support request](https://go.gov.sg/seed-techpass-support).
+?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please raise a [support request](https://go.gov.sg/seed-techpass-support).
 
 
 

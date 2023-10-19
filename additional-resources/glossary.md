@@ -18,13 +18,14 @@ Government Standard Image Build.
 
 Device which is not a GSIB. This could be your personal device, or a device issued by your vendor or agency.
 
-You must enrol this device with SEED (GovTech's MDM solution) in order to access SGTS resources, products and services that requires SEED.
+You must enrol this device with SEED (GovTech's MDM solution) in order to access SGTS resources, products and services which requires SEED.
 
 ### non-SE GSIB
 
+It is a non-Secured Email (SE) GSIB device. This non-SE GSIB device is assigned to public officers and vendors.
 If you are using a non-SE GSIB device, every time you log in to your device, you will be prompted to enter your BitLocker PIN. You can access the internet and intranet using this device.
 
-> **Note**<br>
+> **Note**:<br>
 > You cannot onboard this device to SEED.
 
 ### SE GSIB
@@ -33,7 +34,7 @@ It is a Secured Email (SE) GSIB device. This GSIB device is assigned to public o
 
 If you are using a SE GSIB device, you will be using your PS-Card to authenticate. You will not be able to access internet using this SE-SIB device.
 
-> **Note**<br>
+> **Note**:<br>
 >- You cannot use this device to activate your TechPass account.
 >- You cannot onboard this device to SEED.
 
@@ -43,7 +44,7 @@ Security Suite for Engineering Endpoint Devices. This is the MDM solution offere
 
 ### TechPass
 
-This is an Identity & Access Management (IAM) and  a single sign-on(SSO) solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
+This is an Identity & Access Management (IAM) and  a single sign-on (SSO) solution to seamlessly access Singapore Government Technology Stack (SGTS) services.
 
 While public officers use their WOG credentials(official email address) to log in to their TechPass, vendors use their TechPass ID.
 
@@ -58,7 +59,7 @@ This is used to log in to your TechPass account.
 - For public officers, it is your WOG ID.
 - For vendors, it is *your_name<span>@</span>techpass.gov.sg*.
 
-### Whole of Government(WOG) ID or account
+### Whole of Government (WOG) ID or account
 
 WOG ID is the email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg* or *your_name<span>@</span>mof.gov.sg*.
 

@@ -188,30 +188,30 @@ If you do not have an Apple ID or a recovery key, you can reset your password in
 11. Click **Next**.
 12. Restart your device and, on the login screen, select your user account and enter the new password.
 
-> **Notes**:
+> **Note**:
 
 > 1. If you still cannot reset your password, repeat steps 1-6.
 > 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
 > 3. Disable FileVault on the **Macintosh HD** volume.
 > 4. Restart your device and, on the login screen, select your user account and enter the new password.
 
-#### **Intel Chip**
+#### **Intel chip**
 
 1. Restart your device by pressing the power button while holding down the `Command + R` keys.
 2. Release the keys when you see the load bar.
 3. Go to **Applications** > **Utilities** > **Terminal**.
 4. Enter `resetpassword` and press `return`. The **Reset Password** assistant will be displayed.
-5. Choose **My password doesn’t work when logging in** and click **Next**.
+5. Choose **My password does not work when logging in** and click **Next**.
 6. If prompted, select the user account for which you need to change the password.
 7. Enter the old password and your new password in the respective fields.
 8. Type the new password again to verify and provide a password hint.
 9. Click **Next**.
 10. Restart your device and, on the login screen, select your user account and enter the new password.
 
-> **Notes**:
+> **Note**:
 
 > 1. If you still cannot reset your password, repeat steps 1-4.
-> 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
+> 2. Select **My keyboard is not working when typing my password to log in** and click **Next**.
 > 3. Disable FileVault on the **Macintosh HD** volume.
 > 4. Restart your device and, on the login screen, select your user account and enter the new password.
 
@@ -235,7 +235,7 @@ As a prerequisite, ensure the device you are onboarding to SEED has a stable int
 | Endpoint Error | <br>1. Ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.<br>2. Go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a support request](https://go.gov.sg/seed-techpass-support). |
 | Software Installation Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a support request](https://go.gov.sg/seed-techpass-support).|
 | Internal Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Raise a support request](https://go.gov.sg/seed-techpass-support).|
-| Device that is trying to onboard is a DWP device. Please onboard with a non-DWP device.| You can't onboard a DWP device to SEED. You can onboard only an Internet Device to SEED. |
+| Device that is trying to onboard is a DWP device. Please onboard with a non-DWP device.| You cannot onboard a DWP device to SEED. You can onboard only an Internet Device to SEED. |
 
 </details>
 

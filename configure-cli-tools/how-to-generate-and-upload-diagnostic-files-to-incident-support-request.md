@@ -56,7 +56,7 @@ This section provides instructions for generating a HAR (HTTP Archive) file for 
 
 ### Generate HAR file for Google Chrome
 
-1. Open Google Chrome and right-click anywhere, then select **Inspect** or press Command+Option+C (Mac) or Control+Shift+C (Windows) to open the Developer Tools panel.
+1. Open Google Chrome and right-click anywhere, then select **Inspect** or press Command+Option+C (macOS) or Control+Shift+C (Windows) to open the Developer Tools panel.
 2. Go to the **Network** tab and enable **Preserve log**.
 3. Log in to the [GCC 2.0 CMP](https://cmp.gcc.gov.sg/) or access the SGTS service through Cloudflare Access.
 4. Verify if a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.
@@ -67,7 +67,7 @@ This section provides instructions for generating a HAR (HTTP Archive) file for 
 
 ?> **Note**: Make sure your Mozilla Firefox is configured to trust your system's trusted root certificate store.
 
-1. Open Firefox and go to the application menu > **More tools** > **Web Developer Tools**, or press Ctrl+Shift+I (Windows) or Command+Option+I (macOS), and click on **Network** to open the Developer Tools.
+1. Open Firefox and go to the application menu > **More tools** > **Web Developer tools**, or press Ctrl+Shift+I (Windows) or Command+Option+I (macOS), and click on **Network** to open the Developer Tools.
 2. Click on **Network Settings** in the upper-right corner of the Developer Tools panel and enable **Persist Logs**.
 3. Log in to the [GCC 2.0 CMP](https://cmp.gcc.gov.sg/) or access the SGTS service through Cloudflare Access.
 4. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.

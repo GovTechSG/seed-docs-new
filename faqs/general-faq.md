@@ -6,7 +6,21 @@ GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS 
 
 </details>
 
-<details><summary>I have lost my GMD. What should I do?</summary>
+<details><summary>Can I install unlicensed software or tools on my Government Managed Device (GMD)?</summary>
+
+Installing unlicensed software on your GMD is strictly prohibited. GMDs are government-managed, and this policy ensures security and compliance. Unauthorised software compromises security and violates regulations. 
+
+If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of Use](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-of-use.pdf) for details.
+
+</details>
+
+<details><summary>Can I bring and use my GMD (Government Managed Device) overseas?</summary>
+
+Users should assess the risk and seek approval from their Reporting Officer (RO) before doing so.
+
+</details>
+
+<details><summary>I have lost my Government Managed Device (GMD). What should I do?</summary>
 
 1. Notify your manager and operations manager to approve data deletion on the lost device.
 2. Raise a [service request](https://go.gov.sg/seed-techpass-support) to notify the SEED team about the lost device.
@@ -15,7 +29,7 @@ GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS 
 
 </details>
 
-<details><summary>What happens when the security of a GMD is compromised?</summary>
+<details><summary>What happens when the security of a Government Managed Device (GMD) is compromised?</summary>
 
   When SEED detects a compromised device, it contacts the owner for disconnection. After obtaining owner and manager approvals, SEED performs a remote wipe.
 
@@ -23,7 +37,7 @@ GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS 
 > The device must be powered on and connected to the internet for remote wiping.
 
 </details>
-<details><summary>What happens when a remote wipe is performed on a GMD?</summary>
+<details><summary>What happens when a remote wipe is performed on a Government Managed Device (GMD)?</summary>
 
   Remote wipe erases all data on the device, performed only for theft, loss, or security compromise. For more information, refer to the [Terms and Policies](terms-and-policies).
 
@@ -31,6 +45,24 @@ GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS 
 <details><summary>Is remote wipe done only on devices that belong to public sector agencies?</summary>
 
   No, remote wipe applies to any lost or compromised GMD to prevent data breaches. For more information, refer to the [Terms and Policies](terms-and-policies).
+
+</details>
+
+<details><summary>What should I do if my device has been inactive for 180 days?</summary>
+
+If your device is no longer required to access SEED, please [offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed). If you still require access after being inactive for 180 days, please email enquiries_seed@tech.gov.sg for assistance.
+
+</details>
+
+<details><summary>What should I do if I want to check if my device record has been deleted?</summary>
+
+Log in to [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) after 23rd October to see whether your device record still exists. If your device record does not exist, or you are unable to log into SEED Dashboard, your device records have been cleaned up.
+
+</details>
+
+<details><summary>What should I do if my device record has been deleted even though it is still active?</summary>
+
+Please email enquiries_seed@tech.gov.sg for assistance.
 
 </details>
 
@@ -54,7 +86,7 @@ GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS 
 
  </details>
 
-<details><summary>Previously, I successfully onboarded my Internet Device to SEED, but now I received an email indicating limited access to SEED-protected resources. Why, and what should I do? </summary>
+<details><summary>Previously, I have successfully onboarded my Internet Device to SEED, but now I received an email indicating limited access to SEED-protected resources. Why, and what should I do? </summary>
 
 This suggests SEED detected device configuration issues. For example, an unhealthy Microsoft Defender. For resolution:
 
@@ -74,9 +106,9 @@ Receiving this email again indicates that services ensuring SEED compliance may 
 
 If you belong to the TechPass AAD and your GMD (the Internet Device onboarded to SEED) has not been logged into for 90 consecutive days, the GMD becomes inactive, and its records are softly removed from the Intune portal.
 
-It's important to understand that when your device records are softly removed, it does not perform a device wipe or retirement. Instead, the device record is temporarily taken out of Intune.
+It is important to understand that when your device records are softly removed, it does not perform a device wipe or retirement. Instead, the device record is temporarily taken out of Intune.
 
-Consequently, SEED administrators will no longer have access to details such as the device's health status, and they won't be able to manage it from the SEED Dashboard.
+Consequently, SEED administrators will no longer have access to details such as the device's health status, and they will not be able to manage it from the SEED Dashboard.
 
 For more information, refer to [device clean-up policy](device-clean-up-policy).
 
@@ -93,7 +125,7 @@ No, you will not receive any notification for this.
 
 <details>
   <summary>Do I need to change my SEED onboarding password after a year, and what are the password requirements for it?</summary>
-  
+
   Yes, you are required to change your SEED onboarding password after a year. The password requirements for SEED onboarding are as follows:
 
 - It should contain at least 12 characters.

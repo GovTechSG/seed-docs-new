@@ -44,7 +44,7 @@ source "${HOME}/.bashrc"
 
 ## Docker
 
-Docker for Desktop on macOS and Windows relies on virtual machines to host the Docker engine. To ensure compatibility with the Cloudflare Certificate, it's necessary to configure the Docker engine accordingly.
+Docker for Desktop on macOS and Windows relies on virtual machines to host the Docker engine. To ensure compatibility with the Cloudflare Certificate, it is necessary to configure the Docker engine accordingly.
 
 These instructions are provided to ensure the Docker engine functions seamlessly alongside Cloudflare WARP. However, it's important to note that this approach is not the recommended method for building production-ready Docker images.
 
@@ -97,7 +97,7 @@ RUN \
 
 AWS CLI utilises its own certificate store. It must be configured to trust the Cloudflare Certificate.
 
-For Linux & macOS users:
+For Linux and macOS users:
 
 1. Open your terminal.
 
@@ -108,20 +108,16 @@ mkdir -p "${HOME}/.config/.cloudflare"
 curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem"
 
 # If you are using macOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
-echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | "tee -a ${HOME}/.zshrc"
+echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.zshrc"
 source "${HOME}/.zshrc"
 
 # If you are using Linux, Bash is likely to be your default terminal. If you are using Bash, please run the following commands:
-echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | "tee -a ${HOME}/.bashrc"
+echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.bashrc"
 source "${HOME}/.bashrc"
 ```
 
 
-
-## AWS SDK
-
-
-### Javascript
+## Javascript
 ```js
 import { readFileSync } from “fs”;
 import { Agent } from “https”;
