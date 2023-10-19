@@ -29,7 +29,7 @@
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
   - [Offboarding FAQ](/faqs/seed-offboarding-faq.md)
 - Support
-  - [Raise a support request](raise-an-incident-support-request)
+  - [Raise a service request](raise-an-incident-support-request)
   -  [Troubleshooting](/faqs/troubleshooting.md)
   - [View SEED service status](seed-status)
   - [Terms and policies](additional-resources/terms-and-policies.md)
